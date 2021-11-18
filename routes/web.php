@@ -15,3 +15,4 @@ use App\Http\Controllers\MainController;
 */
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index'])->name('default');
+Route::get('/about_us', [App\Http\Controllers\MainController::class, 'about'])->name('about_us');

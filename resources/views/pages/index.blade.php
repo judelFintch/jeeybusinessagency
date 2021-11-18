@@ -8,15 +8,39 @@
       <div class="video-overlay header-text">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-lg-6">
                 <div class="caption">
-             
-              <h2>WELCOME CS NSANGA LE THANZIE</h2>
-              <p></p>
+                  <h2>Complexe le THANZIE</h2>
+                <p>
+                  Bienvenue sur le site web officiel du Complexe Scolaire THANZIE<br>
+                  Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
+                  en République Démocratique du Congo. 
+                  Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
+                  premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
+                  Gambela II abrite l’école maternelle et primaire tandis que le deuxième
+                  bloc sis croisement des avenues Kasangulu et de l’Eglise abrite l’école
+                  secondaire. Les deux imposants bâtiments sont construits en matériaux
+                  durables avec une architecture moderne offrant à cet effet une garantie
+                  de bonnes conditions d’études aux élèves qui y sont encadrés.
+              </p>
               <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Lire plus!</a></div>
+                  <div class="scroll-to-section"><a href="{{route('about_us')}}">Lire plus</a></div>
+              </div></div>
               </div>
-          </div>
+              <div class="col-lg-6">
+              <div class="caption">
+              <p>
+              Bienvenue sur le site web officiel du Complexe Scolaire THANZIE<br>
+                  Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
+                  en République Démocratique du Congo. 
+                  Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
+                  premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
+                  Gambela II abrite l’école maternelle et primaire tandis que le deuxième
+                  bloc sis croisement des avenues Kasangulu et de l’Eglise abrite l’école
+                  secondaire. Les deux imposants bâtiments sont construits en matériaux
+                  durables avec une architecture moderne offrant à cet effet une garantie
+                  de bonnes conditions d’études aux élèves qui y sont encadrés.
+              </p>
               </div>
             </div>
           </div>

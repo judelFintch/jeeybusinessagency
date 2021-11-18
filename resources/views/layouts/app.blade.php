@@ -62,7 +62,7 @@
                           <li><a href="">Apropos</a></li>
                           <li class="scroll-to-section"><a href="#apply">Activités</a></li>
                           <li class="has-sub">
-                              <a href="javascript:void(0)">SECTIONS</a>
+                              <a href="javascript:void(0)">OPTIONS D'ÉTUDES</a>
                               <ul class="sub-menu">
                                   <li><a href=""></a></li>
                                   <li><a href=""></a></li>
