@@ -1,13 +1,15 @@
 @extends('layouts.app')
 @section('content')
+
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
           <source src="assets/images/course-video.mp4" type="video/mp4" />
       </video>
+
       <div class="video-overlay header-text">
           <div class="container">
-            <div class="row">
+          <div class="row">
               <div class="col-lg-6">
                 <div class="caption">
                   <h2>Complexe le THANZIE</h2>
@@ -44,10 +46,11 @@
               </div>
             </div>
           </div>
+          </div>
       </div>
   </section>
   <!-- ***** Main Banner Area End ***** -->
-
+<br>
   <section class="services">
     <div class="container">
       <div class="row">
@@ -59,8 +62,9 @@
                 <img src="assets/images/service-icon-01.png" alt="">
               </div>
               <div class="down-content">
-                <h4>Best Education</h4>
-                <p>.</p>
+                <h4>Discipline et Travail</h4>
+                <p>Former la jeunesse de notre pays afin de la rendre indépendante
+et utile à la société.</p>
               </div>
             </div>
             
@@ -69,8 +73,9 @@
                 <img src="assets/images/service-icon-02.png" alt="">
               </div>
               <div class="down-content">
-                <h4>Best Teachers</h4>
-                <p>.</p>
+                <h4>Jeunes utiles</h4>
+                <p>Former la jeunesse de notre pays afin de la rendre indépendante
+et utile à la société..</p>
               </div>
             </div>
             
@@ -79,8 +84,9 @@
                 <img src="assets/images/service-icon-03.png" alt="">
               </div>
               <div class="down-content">
-                <h4>Best Students</h4>
-                <p>.</p>
+                <h4>Education</h4>
+                <p>Contribuer à la formation de l’élite congolaise par un enseignement
+de qualité tel que prévue par la législation congolaise en la matière</p>
               </div>
             </div>
             
@@ -89,20 +95,13 @@
                 <img src="assets/images/service-icon-02.png" alt="">
               </div>
               <div class="down-content">
-                <h4>Online Meeting</h4>
-                <p>.</p>
+                <h4>Enseignement de qualite</h4>
+                <p>Relever le niveau de l’enseignement en luttant contre les
+antivaleurs sous toutes ses formes.</p>
               </div>
             </div>
             
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Networking</h4>
-                <p></p>
-              </div>
-            </div>
+            
             
           </div>
         </div>
@@ -115,21 +114,20 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h2>Nos Actualités</h2>
+            <h2>Nos Publications</h2>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="categories">
-            <h4>Nos Palmaresses</h4>
+            <h4>Valves</h4>
             <ul>
-              <li><a href="#">Sed tempus enim leo</a></li>
-              <li><a href="#">Aenean molestie quis</a></li>
-              <li><a href="#">Cras et metus vestibulum</a></li>
-              <li><a href="#">Nam et condimentum</a></li>
-              <li><a href="#">Phasellus nec sapien</a></li>
+              <li><a href="#">RÉGLEMENT D'ORDRE INTÉRIEUR</a></li>
+              <li><a href="#">Condition d'inscription</a></li>
+              <li><a href="#">Offres d'emploi</a></li>
+              
             </ul>
             <div class="main-button-red">
-              <a href="">Voir plus</a>
+              <a href="meetings.html">Tout Voir</a>
             </div>
           </div>
         </div>
@@ -139,7 +137,41 @@
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>12.02.2021</span>
+                    <span>10.10.2021</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6>Nov <span>10</span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                  <span>10.10.2021</span>
+                  </div>
+                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                </div>
+                <div class="down-content">
+                  <div class="date">
+                    <h6>Nov <span>24</span></h6>
+                  </div>
+                  <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="meeting-item">
+                <div class="thumb">
+                  <div class="price">
+                  <span>10.10.2021</span>
                   </div>
                   <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
                 </div>
@@ -156,7 +188,7 @@
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>12.02.2021</span>
+                  <span>10.10.2021</span>
                   </div>
                   <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
                 </div>
@@ -182,114 +214,74 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="item">
-                <h3>Nos Objectifs</h3>
-                <p> </p>
+                <h3>LA PRESENTATION</h3>
+                <p>
+NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre
+dans le secteur de l’éducation et qui offre un excellent cadre de
+formation pour la jeunesse de la République Démocratique du Congo ;
+Le siège social de notre Asbl est situé au numéro 3539 de l’avenue
+Kalombo au quartier Gambela non loin de l’Université de Lubumbashi
+dans la Province du Haut- Katanga.
+Elle a été créée à Lubumbashi en date du 09/08/2010 par des
+congolais soucieux de promouvoir l’éducation en République
+Démocratique du Congo en général et plus particulièrement à
+Lubumbashi en ciblant les quartiers les plus reculés dont les parents ont
+un revenu modeste.
+Elle est dotée d’une personnalité juridique accordée par le ministère de
+la justice et droits humains par son arrêté ministériel
+N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
+but lucratif non confessionnelle ;
+Le complexe scolaire NSANGA LE THANZIE a été agréé par le
+ministère de l’enseignement primaire et secondaire à travers l’arrêté
+ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre
+2010 et il fonctionne normalement jusqu’à ce jour..</p>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Lire plus</a></div>
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
               </div>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item">
-                <h3>Historique</h3>
-                <p></p>
+                <h3>DES OBJECTIFS</h3>
+                <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
                 <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Lire plus</a></div>
+                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
               </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="accordions is-first-expanded">
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>Sections</span>
+          <div class="">
+            
+               
+                    <span>DES OBJECTIFS</span>
                     <span class="icon">
                         <i class="icon fa fa-chevron-right"></i>
                     </span>
                 </div>
-                
+               
             </article>
            
-            <article class="accordion">
-                <div class="accordion-body">
-                    <div class="content">
-                        <p></p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion last-accordion">
-                <div class="accordion-head">
-                    <span>Nos options</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>.</p>
-                    </div>
-                </div>
-            </article>
+            
+            Les objectifs que nous nous sommes assignés en créant cette
+gigantesque œuvre sont les suivants :
+o Former la jeunesse de notre pays afin de la rendre indépendante
+et utile à la société.
+o Relever le niveau de l’enseignement en luttant contre les
+antivaleurs sous toutes ses formes ;
+o Contribuer à la formation de l’élite congolaise par un enseignement
+de qualité tel que prévue par la législation congolaise en la matière
+;
+o Participer activement au chantier éducation prôné par le chef de
+l’état en vue de préparer le Congo de demain et par ricochet
+donner du travail à population.
         </div>
         </div>
       </div>
     </div>
   </section>
-
-  
-
-  <section class="our-facts">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Nos statistique</h2>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content percentage">
-                    <div class="count-digit">94</div>
-                    <div class="count-title">Succesed</div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">+ 126</div>
-                    <div class="count-title">Diplomes</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content new-students">
-                    <div class="count-digit">+ 256</div>
-                    <div class="count-title">Disponible</div>
-                  </div>
-                </div> 
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">320</div>
-                    <div class="count-title">Temoignages</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-        <div class="col-lg-6 align-self-center">
-          <div class="video">
-            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <section class="contact-us" id="contact">
     <div class="container">
@@ -362,4 +354,68 @@
         </p>
     </div>
   </section>
+  
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+
+  
 @endsection

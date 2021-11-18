@@ -16,3 +16,6 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index'])->name('default');
 Route::get('/about_us', [App\Http\Controllers\MainController::class, 'about'])->name('about_us');
+Route::get('/section', [App\Http\Controllers\MainController::class, 'section'])->name('section');
+Route::get('/job', [App\Http\Controllers\MainController::class, 'inscription'])->name('job');
+Route::get('/inscription', [App\Http\Controllers\MainController::class, 'inscription'])->name('inscription');
