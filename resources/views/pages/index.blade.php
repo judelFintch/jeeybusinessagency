@@ -30,16 +30,7 @@
               <div class="col-lg-6">
               <div class="caption">
               <p>
-              Bienvenue sur le site web officiel du Complexe Scolaire THANZIE<br>
-                  Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
-                  en République Démocratique du Congo. 
-                  Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
-                  premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
-                  Gambela II abrite l’école maternelle et primaire tandis que le deuxième
-                  bloc sis croisement des avenues Kasangulu et de l’Eglise abrite l’école
-                  secondaire. Les deux imposants bâtiments sont construits en matériaux
-                  durables avec une architecture moderne offrant à cet effet une garantie
-                  de bonnes conditions d’études aux élèves qui y sont encadrés.
+             
               </p>
               </div>
             </div>
@@ -245,20 +236,19 @@ antivaleurs sous toutes ses formes.</p>
                 </div>
                
             </article>
-           
-            
-            Les objectifs que nous nous sommes assignés en créant cette
-gigantesque œuvre sont les suivants :
-o Former la jeunesse de notre pays afin de la rendre indépendante
-et utile à la société.
-o Relever le niveau de l’enseignement en luttant contre les
-antivaleurs sous toutes ses formes ;
-o Contribuer à la formation de l’élite congolaise par un enseignement
-de qualité tel que prévue par la législation congolaise en la matière
-;
-o Participer activement au chantier éducation prôné par le chef de
-l’état en vue de préparer le Congo de demain et par ricochet
-donner du travail à population.
+        
+              Les objectifs que nous nous sommes assignés en créant cette
+              gigantesque œuvre sont les suivants :
+              o Former la jeunesse de notre pays afin de la rendre indépendante
+              et utile à la société.
+              o Relever le niveau de l’enseignement en luttant contre les
+              antivaleurs sous toutes ses formes ;
+              o Contribuer à la formation de l’élite congolaise par un enseignement
+              de qualité tel que prévue par la législation congolaise en la matière
+              ;
+              o Participer activement au chantier éducation prôné par le chef de
+              l’état en vue de préparer le Congo de demain et par ricochet
+              donner du travail à population.
         </div>
         </div>
       </div>
@@ -312,7 +302,8 @@ donner du travail à population.
             <ul>
               <li>
                 <h6>Phone Number</h6>
-                <span>243 994 33 55 78</span>
+                <span>243 99 29 01 370</span>
+                <span>+1 646 806 34 73</span>
               </li>
               <li>
                 <h6>Email Address</h6>
