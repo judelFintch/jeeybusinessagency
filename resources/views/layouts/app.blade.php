@@ -29,6 +29,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-8">
+        <div class="left-content">
+            <p>Le site est encours de construction fin prevue pour c'est 27.11.2021 </p>
+          </div>
+        </div>
          
         </div>
         <div class="col-lg-4 col-sm-4">
@@ -59,16 +63,16 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Acceuil</a></li>
-                          <li><a href="">Apropos</a></li>
-                          <li class="scroll-to-section"><a href="#apply">Activités</a></li>
+                          <li><a href="#apply">Apropos</a></li>
+                          <li class="scroll-to-section"><a href="#meetings">Publications</a></li>
                           <li class="has-sub">
-                              <a href="javascript:void(0)">OPTIONS D'ÉTUDES</a>
+                              <a href="javascript:void(0)">OPTIONS</a>
                               <ul class="sub-menu">
                                   <li><a href=""></a></li>
                                   <li><a href=""></a></li>
                               </ul>
                           </li>
-                          <li class="scroll-to-section"><a href="#courses">Galerie</a></li> 
+                          <li class="scroll-to-section"><a href="">Inscription</a></li> 
                           <li class="scroll-to-section"><a href="#contact">Contact</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
@@ -82,6 +86,19 @@
   </header>
   <!-- ***** Header Area End ***** -->
         @yield('content');
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/61975c6f6885f60a50bc894c/1fkrk25jv';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+<!--End of Tawk.to Script-->
         <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

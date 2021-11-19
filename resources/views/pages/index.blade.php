@@ -1,12 +1,10 @@
 @extends('layouts.app')
 @section('content')
-
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
           <source src="assets/images/course-video.mp4" type="video/mp4" />
       </video>
-
       <div class="video-overlay header-text">
           <div class="container">
           <div class="row">
@@ -79,16 +77,7 @@ et utile à la société..</p>
               </div>
             </div>
             
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Education</h4>
-                <p>Contribuer à la formation de l’élite congolaise par un enseignement
-de qualité tel que prévue par la législation congolaise en la matière</p>
-              </div>
-            </div>
+           
             
             <div class="item">
               <div class="icon">
@@ -207,8 +196,8 @@ antivaleurs sous toutes ses formes.</p>
     </div>
   </section>
 
-  <section class="apply-now" id="apply">
-    <div class="container">
+  <section class="apply-now" id="apply" id="">
+    <div id="present_ecole" class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="row">
@@ -216,38 +205,32 @@ antivaleurs sous toutes ses formes.</p>
               <div class="item">
                 <h3>LA PRESENTATION</h3>
                 <p>
-NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre
-dans le secteur de l’éducation et qui offre un excellent cadre de
-formation pour la jeunesse de la République Démocratique du Congo ;
-Le siège social de notre Asbl est situé au numéro 3539 de l’avenue
-Kalombo au quartier Gambela non loin de l’Université de Lubumbashi
-dans la Province du Haut- Katanga.
-Elle a été créée à Lubumbashi en date du 09/08/2010 par des
-congolais soucieux de promouvoir l’éducation en République
-Démocratique du Congo en général et plus particulièrement à
-Lubumbashi en ciblant les quartiers les plus reculés dont les parents ont
-un revenu modeste.
-Elle est dotée d’une personnalité juridique accordée par le ministère de
-la justice et droits humains par son arrêté ministériel
-N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
-but lucratif non confessionnelle ;
-Le complexe scolaire NSANGA LE THANZIE a été agréé par le
-ministère de l’enseignement primaire et secondaire à travers l’arrêté
-ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre
-2010 et il fonctionne normalement jusqu’à ce jour..</p>
+                    NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre
+                    dans le secteur de l’éducation et qui offre un excellent cadre de
+                    formation pour la jeunesse de la République Démocratique du Congo ;
+                    Le siège social de notre Asbl est situé au numéro 3539 de l’avenue
+                    Kalombo au quartier Gambela non loin de l’Université de Lubumbashi
+                    dans la Province du Haut- Katanga.
+                    Elle a été créée à Lubumbashi en date du 09/08/2010 par des
+                    congolais soucieux de promouvoir l’éducation en République
+                    Démocratique du Congo en général et plus particulièrement à
+                    Lubumbashi en ciblant les quartiers les plus reculés dont les parents ont
+                    un revenu modeste.
+                    Elle est dotée d’une personnalité juridique accordée par le ministère de
+                    la justice et droits humains par son arrêté ministériel
+                    N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
+                    but lucratif non confessionnelle ;
+                    Le complexe scolaire NSANGA LE THANZIE a été agréé par le
+                    ministère de l’enseignement primaire et secondaire à travers l’arrêté
+                    ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre
+                    2010 et il fonctionne normalement jusqu’à ce jour..</p>
                 <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div class="scroll-to-section"><a href="#contact">lire plus</a></div>
               </div>
               </div>
             </div>
             <div class="col-lg-12">
-              <div class="item">
-                <h3>DES OBJECTIFS</h3>
-                <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
-                <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
-              </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -329,19 +312,19 @@ donner du travail à population.
             <ul>
               <li>
                 <h6>Phone Number</h6>
-                <span>010-020-0340</span>
+                <span>243 994 33 55 78</span>
               </li>
               <li>
                 <h6>Email Address</h6>
-                <span>info@meeting.edu</span>
+                <span>info@csnsangalethanzie</span>
               </li>
               <li>
-                <h6>Street Address</h6>
-                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                <h6>Address</h6>
+                <span>A Kasangulu et de l’Eglise abrite l’école</span>
               </li>
               <li>
                 <h6>Website URL</h6>
-                <span>www.meeting.edu</span>
+                <span>www.csnsangalethanzie.org</span>
               </li>
             </ul>
           </div>
