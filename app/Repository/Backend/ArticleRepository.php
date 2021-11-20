@@ -48,6 +48,7 @@ class ArticleRepository implements ArticleRepositoryInterface
     public function update($attributes, string $key): Model|Builder
     {
         $article = $this->getOneByKey($key);
+        $this->removePathOfImages($article);
         $article->update([
             'title' => $attributes->input('title'),
             'content' => $attributes->input('content'),

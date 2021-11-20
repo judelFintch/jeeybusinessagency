@@ -30,6 +30,6 @@
     </div>
     @include('admins.partials.script')
     @yield('scripts')
-{{--    @include('sweetalert::alert')--}}
+    @include('sweetalert::alert')
 </body>
 </html>
