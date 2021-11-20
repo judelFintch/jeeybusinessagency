@@ -13,9 +13,9 @@ Route::group(['middleware' => 'auth'], function (){
     Route::resource('article', ArticleBackendController::class);
 });
 
-
 Route::get('/', [HomeFrontendController::class, 'index'])->name('home.index');
 Route::get('/article/{key}', [HomeFrontendController::class, 'show'])->name('article.show');
 Route::get('/section', [App\Http\Controllers\MainController::class, 'section'])->name('section');
+Route::get('/about_us', [App\Http\Controllers\MainController::class, 'section'])->name('about_us');
 Route::get('/job', [App\Http\Controllers\MainController::class, 'inscription'])->name('job');
 Route::get('/inscription', [App\Http\Controllers\MainController::class, 'inscription'])->name('inscription');

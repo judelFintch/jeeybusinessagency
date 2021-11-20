@@ -17,5 +17,6 @@
     @include('apps.partials.javascript')
     @yield('scripts')
     @include('sweetalert::alert')
+    
 </body>
 </html>
