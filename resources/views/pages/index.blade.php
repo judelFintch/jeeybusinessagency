@@ -10,9 +10,9 @@
           <div class="row">
               <div class="col-lg-6">
                 <div class="caption">
-                  <h2>Complexe le THANZIE</h2>
+                  <h2>CS SANGA LE THANZIE</h2>
                 <p>
-                  Bienvenue sur le site web officiel du Complexe Scolaire THANZIE<br>
+                  Bienvenue sur le site web officiel du CS SANGA LE THANZIE<br>
                   Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
                   en République Démocratique du Congo. 
                   Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
@@ -63,12 +63,11 @@ et utile à la société.</p>
               </div>
               <div class="down-content">
                 <h4>Jeunes utiles</h4>
-                <p>Former la jeunesse de notre pays afin de la rendre indépendante
-et utile à la société..</p>
+                <p>
+                  Former la jeunesse de notre pays afin de la rendre indépendante
+                  et utile à la société..</p>
               </div>
             </div>
-            
-           
             
             <div class="item">
               <div class="icon">
@@ -76,19 +75,16 @@ et utile à la société..</p>
               </div>
               <div class="down-content">
                 <h4>Enseignement de qualite</h4>
-                <p>Relever le niveau de l’enseignement en luttant contre les
-antivaleurs sous toutes ses formes.</p>
+                <p>
+                  Relever le niveau de l’enseignement en luttant contre les
+                    antivaleurs sous toutes ses formes.</p>
               </div>
             </div>
-            
-            
-            
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <section class="upcoming-meetings" id="meetings">
     <div class="container">
       <div class="row">
@@ -104,7 +100,6 @@ antivaleurs sous toutes ses formes.</p>
               <li><a href="#">RÉGLEMENT D'ORDRE INTÉRIEUR</a></li>
               <li><a href="#">Condition d'inscription</a></li>
               <li><a href="#">Offres d'emploi</a></li>
-              
             </ul>
             <div class="main-button-red">
               <a href="meetings.html">Tout Voir</a>
@@ -207,17 +202,13 @@ antivaleurs sous toutes ses formes.</p>
                     Démocratique du Congo en général et plus particulièrement à
                     Lubumbashi en ciblant les quartiers les plus reculés dont les parents ont
                     un revenu modeste.
+                    <br>
                     Elle est dotée d’une personnalité juridique accordée par le ministère de
                     la justice et droits humains par son arrêté ministériel
                     N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
-                    but lucratif non confessionnelle ;
-                    Le complexe scolaire NSANGA LE THANZIE a été agréé par le
-                    ministère de l’enseignement primaire et secondaire à travers l’arrêté
-                    ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre
-                    2010 et il fonctionne normalement jusqu’à ce jour..</p>
-                <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">lire plus</a></div>
-              </div>
+                    but lucratif non confessionnelle...
+                  </p>
+               
               </div>
             </div>
             <div class="col-lg-12">
@@ -226,30 +217,72 @@ antivaleurs sous toutes ses formes.</p>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="">
-            
-               
-                    <span>DES OBJECTIFS</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-               
-            </article>
-        
+        <div class="item">
+        <h3>NOS OBJECTIFS</h3>
+           <p>
               Les objectifs que nous nous sommes assignés en créant cette
-              gigantesque œuvre sont les suivants :
-              o Former la jeunesse de notre pays afin de la rendre indépendante
-              et utile à la société.
-              o Relever le niveau de l’enseignement en luttant contre les
-              antivaleurs sous toutes ses formes ;
-              o Contribuer à la formation de l’élite congolaise par un enseignement
+              gigantesque œuvre sont les suivants : <br> <br>
+              Former la jeunesse de notre pays afin de la rendre indépendante
+              et utile à la société. <br>
+              Relever le niveau de l’enseignement en luttant contre les
+              antivaleurs sous toutes ses formes ; <br>
+              Contribuer à la formation de l’élite congolaise par un enseignement
               de qualité tel que prévue par la législation congolaise en la matière
-              ;
-              o Participer activement au chantier éducation prôné par le chef de
+              ;<br>
+               Participer activement au chantier éducation prôné par le chef de
               l’état en vue de préparer le Congo de demain et par ricochet
-              donner du travail à population.
+              donner du travail à population...
+              </p>
+              
         </div>
+        
+        </div>
+    
+    <div id="present_ecole" class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item">
+                <h3>DE L’INTERVENTION  DE L’ETAT</h3>
+                <p>
+                Notre souci est de pouvoir accompagner les autorités de notre pays à rendre effectif l’enseignement obligatoire pour tous les enfants ;pour atteindre cet objectif ,qu’il nous soit permis de lancer un vibrant  appel au gouvernement de soutenir notre œuvre en la retenant parmi les écoles devant bénéficier des subventions de l’Etat dans le cadre de la politique de gratuité de l’enseignement primaire et secondaire tel que prescrit dans notre constitution. 
+                    <br> <br>
+                    Elle est dotée d’une personnalité juridique accordée par le ministère de
+                    la justice et droits humains par son arrêté ministériel
+                    N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
+                    but lucratif non confessionnelle...
+                  </p>
+               
+              </div>
+            </div>
+            <div class="col-lg-12">
+            <div class="main-button-red">
+                  <div class="scroll-to-section"><a href="#contact">lire plus</a></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="item">
+        <h3> DES  SECTIONS ORGANISEES</h3>
+           <p>
+          
+Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi à beaucoup des parents de nous faire confiance dans une grande diversité culturelle, nous organisons les enseignements au niveau de l’école maternelle, de l’école primaire et enfin de l’école secondaire. 
+
+En ce qui concerne précisément l’école secondaire  notre complexe scolaire organise les enseignements dans les sections ci-après :
+<br> <b> Section littéraire, option latin-philo</b>
+<br> <b>Section  scientifique, options math physique et  biologie -chimie</b>
+ <br><b> Section commerciale  de gestion.</b>
+ <br> <b>Section pédagogique générale</b>
+ <br> Section coupe et couture
+ <br>Section technique, options électricité et mécanique générale
+
+              </p>
+              
+        </div>
+        
         </div>
       </div>
     </div>
