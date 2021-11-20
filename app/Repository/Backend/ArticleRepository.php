@@ -1,0 +1,89 @@
+<?php
+declare(strict_types=1);
+
+namespace App\Repository\Backend;
+
+use App\Models\Article;
+use App\Repository\Interfaces\ArticleRepositoryInterface;
+use App\Repository\UploaderImages;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
+use Illuminate\Http\RedirectResponse;
+
+class ArticleRepository implements ArticleRepositoryInterface
+{
+    use UploaderImages;
+
+    public function getAllVerified(): Collection
+    {
+        return Article::query()
+            ->latest()
+            ->get();
+    }
+
+    public function getOneByKey(string $key): Model|Builder
+    {
+        return Article::query()
+            ->when('key', fn($builder) => $builder->where('key', $key))
+            ->with('comments')
+            ->latest()
+            ->first();
+    }
+
+    public function create($attributes): Model|Builder
+    {
+        $articles = Article::query()
+            ->create([
+                'title' => $attributes->input('title'),
+                'content' => $attributes->input('content'),
+                'picture' => self::uploadFiles($attributes),
+                'status' => Article::DRAFT_ARTICLE,
+                'resume' => $attributes->input('resume')
+            ]);
+        toast("L'article a été publié", 'success');
+        return $articles;
+    }
+
+    public function update($attributes, string $key): Model|Builder
+    {
+        $article = $this->getOneByKey($key);
+        $article->update([
+            'title' => $attributes->input('title'),
+            'content' => $attributes->input('content'),
+            'picture' => self::uploadFiles($attributes),
+            'status' => Article::DRAFT_ARTICLE,
+            'resume' => $attributes->input('resume')
+        ]);
+        toast("Une mise a jour a été effectuer", 'success');
+        return $article;
+    }
+
+    public function delete(string $key): Model|Builder|RedirectResponse
+    {
+        $article = $this->getOneByKey($key);
+        $article->delete();
+        toast("L'article a ete supprimer", 'info');
+        return $article;
+    }
+
+    public function confirmed(string $key): Model|Builder
+    {
+        $article = $this->getOneByKey($key);
+        $article->update([
+            'status' => Article::PUBLISH_ARTICLE
+        ]);
+        toast("Article a ete confirmer et publier", 'info');
+        return $article;
+    }
+
+    public function unconfirmed(string $key): Model|Builder
+    {
+        $article = $this->getOneByKey($key);
+        $article->update([
+            'status' => Article::DRAFT_ARTICLE
+        ]);
+        toast("Article a ete mise au brouillon", 'info');
+        return $article;
+    }
+}
