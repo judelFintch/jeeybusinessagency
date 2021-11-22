@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Backend\ArticleBackendController;
 use App\Http\Controllers\Backend\HomeBackendController;
+use App\Http\Controllers\Backend\ValveBackendController;
 use App\Http\Controllers\Frontend\HomeFrontendController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -11,6 +12,7 @@ Auth::routes();
 Route::group(['middleware' => 'auth'], function (){
     Route::get('/home', [HomeBackendController::class, 'index'])->name('backend.index');
     Route::resource('article', ArticleBackendController::class);
+    Route::resource('valves', ValveBackendController::class);
 });
 
 
