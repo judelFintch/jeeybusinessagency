@@ -44,6 +44,7 @@ class ValveRepository implements ValveRepositoryInterface
     public function update($attributes, string $key): Model|Builder
     {
         $valve = $this->getOneByKey($key);
+        $this->unsetFilesUploads($valve);
         $valve->update([
             'title' => $attributes->input('title'),
             'files' => $this->uploadFile($attributes)
@@ -55,6 +56,7 @@ class ValveRepository implements ValveRepositoryInterface
     public function delete(string $key): Model|Builder|RedirectResponse
     {
         $valve = $this->getOneByKey($key);
+        $this->unsetFilesUploads($valve);
         $valve->delete();
         toast("Le valve a ete surpprimer", 'info');
         return $valve;

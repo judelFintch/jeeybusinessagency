@@ -16,7 +16,7 @@ class ValveRequest extends FormRequest
     {
         return [
             'title' => ['required', 'min:5'],
-            'files' => ['required', 'mime:pdf,doc', 'max:4000']
+            'files' => ['required', 'mimes:csv,txt,xlx,docx,xls,pdf', 'max:4000']
         ];
     }
 }
