@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Backend\ArticleBackendController;
+use App\Http\Controllers\Backend\GalleryBackendController;
 use App\Http\Controllers\Backend\HomeBackendController;
 use App\Http\Controllers\Backend\ValveBackendController;
 use App\Http\Controllers\Frontend\HomeFrontendController;
@@ -13,6 +14,7 @@ Route::group(['middleware' => 'auth'], function (){
     Route::get('/home', [HomeBackendController::class, 'index'])->name('backend.index');
     Route::resource('article', ArticleBackendController::class);
     Route::resource('valves', ValveBackendController::class);
+    Route::resource('galleries', GalleryBackendController::class);
 });
 
 
