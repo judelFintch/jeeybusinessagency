@@ -27,19 +27,19 @@
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
-                      CSSANGALETHANZIE
+                      <a href="/" class="logo">
+                          <img src="assets/images/logo.png" height="70">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                           <li><a href="meetings.html">Meetings</a></li>
-                          <li class="scroll-to-section"><a href="#apply">APROPOS</a></li>
+                          <li class="scroll-to-section"><a href="">APROPOS</a></li>
                         
                           <li class="scroll-to-section"><a href="#courses">PUBLICATION</a></li>
-                          <li class="scroll-to-section"><a href="#courses">PALMARESS</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">INSCRIPTION</a></li> 
+                          <li class="scroll-to-section"><a href="">PALMARESS</a></li> 
+                          <li class="scroll-to-section"><a href="">INSCRIPTION</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
