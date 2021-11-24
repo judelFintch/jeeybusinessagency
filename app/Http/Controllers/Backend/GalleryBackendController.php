@@ -23,7 +23,7 @@ class GalleryBackendController extends Controller
     public function index(): Factory|View|Application
     {
         return view('admins.galleries.index', [
-            'valves' => $this->repository->getAllVerified()
+            'galleries' => $this->repository->getAllVerified()
         ]);
     }
 
