@@ -3,6 +3,7 @@
 use App\Http\Controllers\Backend\ArticleBackendController;
 use App\Http\Controllers\Backend\GalleryBackendController;
 use App\Http\Controllers\Backend\HomeBackendController;
+use App\Http\Controllers\Backend\UserBackendController;
 use App\Http\Controllers\Backend\ValveBackendController;
 use App\Http\Controllers\Frontend\HomeFrontendController;
 use Illuminate\Support\Facades\Auth;
@@ -15,11 +16,17 @@ Route::group(['middleware' => 'auth'], function (){
     Route::resource('article', ArticleBackendController::class);
     Route::resource('valves', ValveBackendController::class);
     Route::resource('galleries', GalleryBackendController::class);
+    Route::resource('utilisateur', UserBackendController::class);
 
     Route::put('activeArticle/{key}', [ArticleBackendController::class, 'confirmed'])
         ->name('article.active');
     Route::put('inactiveArticle/{key}', [ArticleBackendController::class, 'unconfirmed'])
         ->name('article.inactive');
+
+    Route::put('activeUsers/{key}', [UserBackendController::class, 'confirmed'])
+        ->name('utilisateur.active');
+    Route::put('inactiveUsers/{key}', [UserBackendController::class, 'unconfirmed'])
+        ->name('utilisateur.inactive');
 });
 
 

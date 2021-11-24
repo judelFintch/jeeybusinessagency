@@ -19,7 +19,7 @@ class UserForm extends Form
             ->add('picture', 'file', [
                 'label' => "Photo utilisateur"
             ])
-            ->add('phone_number', 'phone', [
+            ->add('phone_number', 'tel', [
                 'label' => "Telephone"
             ])
             ->add('password', 'password', [
