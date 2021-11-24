@@ -11,6 +11,7 @@ return new class extends Migration
     {
         Schema::create('valves', function (Blueprint $table) {
             $table->id();
+            $table->string('key')->unique();
             $table->string('title')->unique();
             $table->string('files')->default(0);
             $table->timestamps();

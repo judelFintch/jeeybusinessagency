@@ -27,13 +27,6 @@ class ValveBackendController extends Controller
         ]);
     }
 
-    public function show(string $key): Factory|View|Application
-    {
-        return view('admins.valves.show', [
-            'valve' => $this->repository->getOneByKey($key)
-        ]);
-    }
-
     public function create(): Factory|View|Application
     {
         $form = $this->builder->create(ValveForm::class, [
@@ -57,7 +50,7 @@ class ValveBackendController extends Controller
             'url' => route('valves.update', $valve->key),
             'model' => $valve
         ]);
-        return view('admins.articles.create', compact('form', 'valve'));
+        return view('admins.valves.create', compact('form', 'valve'));
     }
 
     public function update(ValveRequest $attributes, string $key): RedirectResponse

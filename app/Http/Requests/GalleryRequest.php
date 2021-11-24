@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ValveRequest extends FormRequest
+class GalleryRequest extends FormRequest
 {
     public function authorize(): bool
     {
@@ -15,8 +15,7 @@ class ValveRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => ['required', 'min:5', 'unique:valves'],
-            'files' => ['required', 'mimes:csv,txt,xlx,docx,xls,pdf', 'max:4000']
+            'picture' => ['required', 'mimes:jpeg,jpg,png', 'max:5000', 'image'],
         ];
     }
 }

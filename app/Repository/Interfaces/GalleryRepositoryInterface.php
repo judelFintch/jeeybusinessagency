@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Http\RedirectResponse;
 
-interface ArticleRepositoryInterface
+interface GalleryRepositoryInterface
 {
     /**
      * @return Collection
@@ -38,17 +38,5 @@ interface ArticleRepositoryInterface
      * @param string $key
      * @return Model|Builder|RedirectResponse
      */
-    public function delete(string $key): Model|Builder|RedirectResponse|null;
-
-    /**
-     * @param string $key
-     * @return Model|Builder
-     */
-    public function confirmed(string $key): Model|Builder;
-
-    /**
-     * @param string $key
-     * @return Model|Builder
-     */
-    public function unconfirmed(string $key): Model|Builder;
+    public function delete(string $key): Model|Builder|RedirectResponse;
 }

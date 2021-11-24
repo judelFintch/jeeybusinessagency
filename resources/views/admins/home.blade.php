@@ -17,8 +17,8 @@
             <div class="nk-block">
                 <div class="row g-gs">
                     @include('admins.partials.statistic', [
-                        'name' => "Utilisateurs",
-                        'count' => \App\Models\User::all()->count()
+                        'name' => "Articles",
+                        'count' => \App\Models\Article::count()
                     ])
                 </div>
             </div>

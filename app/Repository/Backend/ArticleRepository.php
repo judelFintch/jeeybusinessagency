@@ -39,7 +39,8 @@ class ArticleRepository implements ArticleRepositoryInterface
                 'content' => $attributes->input('content'),
                 'picture' => self::uploadFiles($attributes),
                 'status' => Article::DRAFT_ARTICLE,
-                'resume' => $attributes->input('resume')
+                'resume' => $attributes->input('resume'),
+                'user_id' => auth()->id()
             ]);
         toast("L'article a été publié", 'success');
         return $articles;
@@ -54,17 +55,23 @@ class ArticleRepository implements ArticleRepositoryInterface
             'content' => $attributes->input('content'),
             'picture' => self::uploadFiles($attributes),
             'status' => Article::DRAFT_ARTICLE,
-            'resume' => $attributes->input('resume')
+            'resume' => $attributes->input('resume'),
+            'user_id' => auth()->id()
         ]);
         toast("Une mise a jour a été effectuer", 'success');
         return $article;
     }
 
-    public function delete(string $key): Model|Builder|RedirectResponse
+    public function delete(string $key): Model|Builder|RedirectResponse|null
     {
         $article = $this->getOneByKey($key);
+        $this->removePathOfImages($article);
+        if ($article->status == true){
+            toast("Veillez infirmer l'article avant de le suspendre", 'warning');
+            return null;
+        }
         $article->delete();
-        toast("L'article a ete supprimer", 'info');
+        toast("L'article a ete supprimer", 'success');
         return $article;
     }
 

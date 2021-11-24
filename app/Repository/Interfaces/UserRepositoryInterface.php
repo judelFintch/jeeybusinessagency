@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Http\RedirectResponse;
 
-interface ArticleRepositoryInterface
+interface UserRepositoryInterface
 {
     /**
      * @return Collection
      */
-    public function getAllVerified(): Collection;
+    public function getAllUsers(): Collection;
 
     /**
      * @param string $key
