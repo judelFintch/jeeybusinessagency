@@ -44,6 +44,11 @@
                         'icon' => 'ni-inbox-in'
                     ])
 
+                    @include('admins.partials._link', [
+                        'route' => route('utilisateur.index'),
+                        'name' => 'Utilisateur',
+                        'icon' => 'ni-user'
+                    ])
                 </ul>
             </div>
         </div>
