@@ -18,6 +18,9 @@ return new class extends Migration
             $table->string('picture');
             $table->boolean('status')->default(Article::DRAFT_ARTICLE);
             $table->string('resume');
+            $table->foreignId('user_id')
+                ->constrained()
+                ->cascadeOnDelete();
             $table->timestamps();
         });
     }

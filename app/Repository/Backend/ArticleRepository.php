@@ -39,7 +39,8 @@ class ArticleRepository implements ArticleRepositoryInterface
                 'content' => $attributes->input('content'),
                 'picture' => self::uploadFiles($attributes),
                 'status' => Article::DRAFT_ARTICLE,
-                'resume' => $attributes->input('resume')
+                'resume' => $attributes->input('resume'),
+                'user_id' => auth()->id()
             ]);
         toast("L'article a été publié", 'success');
         return $articles;
@@ -54,7 +55,8 @@ class ArticleRepository implements ArticleRepositoryInterface
             'content' => $attributes->input('content'),
             'picture' => self::uploadFiles($attributes),
             'status' => Article::DRAFT_ARTICLE,
-            'resume' => $attributes->input('resume')
+            'resume' => $attributes->input('resume'),
+            'user_id' => auth()->id()
         ]);
         toast("Une mise a jour a été effectuer", 'success');
         return $article;
