@@ -15,7 +15,7 @@ class ValveRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => ['required', 'min:5'],
+            'title' => ['required', 'min:5', 'unique:valves'],
             'files' => ['required', 'mimes:csv,txt,xlx,docx,xls,pdf', 'max:4000']
         ];
     }

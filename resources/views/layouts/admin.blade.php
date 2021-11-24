@@ -29,7 +29,7 @@
         </div>
     </div>
     @include('admins.partials.script')
-    @yield('scripts')
     @include('sweetalert::alert')
+    @yield('scripts')
 </body>
 </html>

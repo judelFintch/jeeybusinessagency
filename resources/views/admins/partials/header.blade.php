@@ -6,8 +6,8 @@
             </div>
             <div class="nk-header-brand d-xl-none">
                 <a href="{{ route('backend.index') }}" class="logo-link">
-                    <img class="logo-light logo-img" src="{{ asset('app/images/icon.png') }}" srcset="{{ asset('app/images/icon.png') }} 2x" alt="logo">
-                    <img class="logo-dark logo-img" src="{{ asset('app/images/icon.png') }}" srcset="{{ asset('app/images/icon.png') }} 2x" alt="logo-dark">
+                    <img class="logo-light logo-img" src="{{ asset('assets/images/logo.png') }}" srcset="{{ asset('assets/images/logo.png') }} 2x" alt="logo">
+                    <img class="logo-dark logo-img" src="{{ asset('assets/images/logo.png') }}" srcset="{{ asset('assets/images/logo.png') }} 2x" alt="logo-dark">
                 </a>
             </div>
             <div class="nk-header-search ml-3 ml-xl-0">
@@ -67,16 +67,6 @@
                                         <span class="sub-text">{{ auth()->user()->email }}</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="dropdown-inner">
-                                <ul class="link-list">
-                                    <li>
-                                        <a href="#">
-                                            <em class="icon ni ni-user-alt"></em>
-                                            <span>View Profile</span>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                             <div class="dropdown-inner">
                                 <ul class="link-list">

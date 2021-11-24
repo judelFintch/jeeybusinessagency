@@ -2,17 +2,10 @@
 <div class="row gys">
     <div class="col-md-12">
         <div class="row mb-3">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="form-group">
                     <div class="form-control-wrap">
-                        {!! form_row($form->title) !!}
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <div class="form-control-wrap">
-                        {!! form_row($form->files) !!}
+                        {!! form_row($form->picture) !!}
                     </div>
                 </div>
             </div>
