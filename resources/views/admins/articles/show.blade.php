@@ -12,10 +12,48 @@
                     <h3 class="nk-block-title page-title">Article :  / <strong class="text-primary small">{{ $article->title ?? "" }}</strong></h3>
                 </div>
                 <div class="nk-block-head-content">
-                    <a href="{{ route('article.index') }}" class="btn btn-outline-light bg-white d-none d-sm-inline-flex"><em class="icon ni ni-arrow-left"></em><span>Back</span></a>
+                    <div class="toggle-wrap nk-block-tools-toggle">
+                        <div class="toggle-expand-content" data-content="pageMenu">
+                            <ul class="nk-block-tools g-3">
+                                <li class="preview-item">
+                                    @if ($article->status == false)
+                                        @include('admins.partials.update', [
+                                            'route' => 'article.active',
+                                            'callback' => $article->key,
+                                            'button' => 'btn-outline-success btn-sm',
+                                            'icon' => 'ni-check-circle',
+                                            'title' => 'Activer'
+                                        ])
+                                    @else
+                                        @include('admins.partials.update', [
+                                            'route' => 'article.inactive',
+                                            'callback' => $article->key,
+                                            'button' => 'btn-outline-danger btn-sm',
+                                            'icon' => 'ni-check-circle',
+                                            'title' => 'Désactiver'
+                                        ])
+                                    @endif
+                                </li>
+                                <li class="preview-item">
+                                    <a href="{{ route('article.index') }}" class="btn btn-outline-light bg-white d-none d-sm-inline-flex">
+                                        <em class="icon ni ni-arrow-left"></em>
+                                        <span>Back</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        @if($article->status == false)
+            <div class="example-alert mb-3">
+                <div class="alert alert-danger alert-icon">
+                    <em class="icon ni ni-cross-circle"></em>
+                    <strong>Information</strong>! Article n'est pas encore approuvé.
+                </div>
+            </div>
+        @endif
         <div class="nk-block">
             <div class="nk-block">
                 <div class="card">

@@ -60,11 +60,16 @@ class ArticleRepository implements ArticleRepositoryInterface
         return $article;
     }
 
-    public function delete(string $key): Model|Builder|RedirectResponse
+    public function delete(string $key): Model|Builder|RedirectResponse|null
     {
         $article = $this->getOneByKey($key);
+        $this->removePathOfImages($article);
+        if ($article->status == true){
+            toast("Veillez infirmer l'article avant de le suspendre", 'warning');
+            return null;
+        }
         $article->delete();
-        toast("L'article a ete supprimer", 'info');
+        toast("L'article a ete supprimer", 'success');
         return $article;
     }
 

@@ -38,7 +38,7 @@ interface ArticleRepositoryInterface
      * @param string $key
      * @return Model|Builder|RedirectResponse
      */
-    public function delete(string $key): Model|Builder|RedirectResponse;
+    public function delete(string $key): Model|Builder|RedirectResponse|null;
 
     /**
      * @param string $key

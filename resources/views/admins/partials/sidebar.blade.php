@@ -32,6 +32,18 @@
                         'icon' => 'ni-article'
                     ])
 
+                    @include('admins.partials._link', [
+                        'route' => route('valves.index'),
+                        'name' => 'Valves',
+                        'icon' => 'ni-calendar-check'
+                    ])
+
+                    @include('admins.partials._link', [
+                        'route' => route('galleries.index'),
+                        'name' => 'Gallerie',
+                        'icon' => 'ni-inbox-in'
+                    ])
+
                 </ul>
             </div>
         </div>

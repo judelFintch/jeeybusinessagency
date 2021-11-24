@@ -15,6 +15,11 @@ Route::group(['middleware' => 'auth'], function (){
     Route::resource('article', ArticleBackendController::class);
     Route::resource('valves', ValveBackendController::class);
     Route::resource('galleries', GalleryBackendController::class);
+
+    Route::put('activeArticle/{key}', [ArticleBackendController::class, 'confirmed'])
+        ->name('article.active');
+    Route::put('inactiveArticle/{key}', [ArticleBackendController::class, 'unconfirmed'])
+        ->name('article.inactive');
 });
 
 

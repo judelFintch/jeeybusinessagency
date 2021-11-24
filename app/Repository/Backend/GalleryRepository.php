@@ -34,7 +34,7 @@ class GalleryRepository implements GalleryRepositoryInterface
         $gallery = Gallery::query()
             ->create([
                 'picture' => self::uploadFiles($attributes),
-                'status' => Gallery::FALSE_STATUS
+                'status' => Gallery::TRUE_STATUS
             ]);
         toast("Une nouvelle photo a ete ajouter a la gallerie", 'success');
         return $gallery;
