@@ -120,7 +120,7 @@
                               <div class="price">
                                   <span>{{ $article->created_at->format('Y-m-d') }}</span>
                               </div>
-                              <a href="article/{{$article->key}}">
+                              <a href="{{ route('article.voirplus', $article->key) }}">
                                   <img src="{{ asset('storage/'.$article->picture) }}" class="img-fluid" alt="{{ $article->title }}" height="70%" width="40%">
                               </a>
                           </div>
@@ -128,7 +128,7 @@
                               <div class="date">
                                   <h6>{{ $article->created_at->format('M') }}<span>{{ $article->created_at->format('d') }}</span></h6>
                               </div>
-                              <a href="article/{{$article->key}}">
+                              <a href="{{ route('article.voirplus', $article->key) }}">
                                   <h4>{{ $article->title }}</h4>
                               </a>
                               <p>{{ $article->resume }}</p>
