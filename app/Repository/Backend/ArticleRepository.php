@@ -54,9 +54,9 @@ class ArticleRepository implements ArticleRepositoryInterface
             'title' => $attributes->input('title'),
             'content' => $attributes->input('content'),
             'picture' => self::uploadFiles($attributes),
-            'status' => Article::DRAFT_ARTICLE,
+            'status' => Article::PUBLISH_ARTICLE,
             'resume' => $attributes->input('resume'),
-            'user_id' => auth()->id()
+            'user_id' => auth()->id(),
         ]);
         toast("Une mise a jour a été effectuer", 'success');
         return $article;
@@ -65,11 +65,11 @@ class ArticleRepository implements ArticleRepositoryInterface
     public function delete(string $key): Model|Builder|RedirectResponse|null
     {
         $article = $this->getOneByKey($key);
-        $this->removePathOfImages($article);
         if ($article->status == true){
             toast("Veillez infirmer l'article avant de le suspendre", 'warning');
             return null;
         }
+        $this->removePathOfImages($article);
         $article->delete();
         toast("L'article a ete supprimer", 'success');
         return $article;

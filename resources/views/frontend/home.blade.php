@@ -120,15 +120,15 @@
                               <div class="price">
                                   <span>{{ $article->created_at->format('Y-m-d') }}</span>
                               </div>
-                              <a href="">
-                                  <img src="{{ asset('storage/'.$article->picture) }}" alt="{{ $article->title }}" height="70%" width="40%">
+                              <a href="article/{{$article->key}}">
+                                  <img src="{{ asset('storage/'.$article->picture) }}" class="img-fluid" alt="{{ $article->title }}" height="70%" width="40%">
                               </a>
                           </div>
                           <div class="down-content">
                               <div class="date">
                                   <h6>{{ $article->created_at->format('M') }}<span>{{ $article->created_at->format('d') }}</span></h6>
                               </div>
-                              <a href="">
+                              <a href="article/{{$article->key}}">
                                   <h4>{{ $article->title }}</h4>
                               </a>
                               <p>{{ $article->resume }}</p>
@@ -259,7 +259,7 @@ nous organisons les enseignements au niveau de l’école maternelle,
               @foreach($galleries as $gallery)
                   <div class="col-lg-6">
                       <div class="meeting-item">
-                          <div class="thumb">
+                          <div class="img-fluid rounded">
                               <img src="{{ asset('storage/'.$gallery->picture) }}" alt="{{ $article->key ?? "" }}" height="70%" width="40%">
                           </div>
                       </div>
