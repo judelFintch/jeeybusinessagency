@@ -18,6 +18,7 @@ class GalleryRepository implements GalleryRepositoryInterface
     public function getAllVerified(): Collection
     {
         return Gallery::query()
+            ->when('status', fn($builder) => $builder->where('status', Gallery::TRUE_STATUS))
             ->latest()
             ->get();
     }

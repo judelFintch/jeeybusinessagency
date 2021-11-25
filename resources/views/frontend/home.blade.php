@@ -1,9 +1,13 @@
 @extends('layouts.app')
+
+@section('title')
+    ACCEUIL
+@endsection
+
 @section('content')
-  <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/1.mp4" type="video/mp4" />
+          <source src="{{ asset('assets/images/1.mp4') }}" type="video/mp4" />
       </video>
       <div class="video-overlay header-text">
           <div class="container">
@@ -14,7 +18,7 @@
                 <p>
                   Bienvenue sur le site web officiel du CS SANGA LE THANZIE<br>
                   Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
-                  en République Démocratique du Congo. 
+                  en République Démocratique du Congo.
                   Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
                   premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
                   Gambela II abrite l’école maternelle et primaire tandis que le deuxième
@@ -30,7 +34,7 @@
               <div class="col-lg-6">
               <div class="caption">
               <p>
-             
+
               </p>
               </div>
             </div>
@@ -45,20 +49,20 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-service-item owl-carousel">
-          
+
             <div class="item">
               <div class="icon">
-                <img src="assets/images/service-icon-01.png" alt="">
+                <img src="{{ asset('assets/images/service-icon-01.png') }}" alt="">
               </div>
               <div class="down-content">
                 <h4>Discipline et Travail</h4>
                 <p>Former la jeunesse de notre pays afin de la rendre indépendante et utile à la société.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
+                <img src="{{ asset('assets/images/service-icon-02.png') }}" alt="">
               </div>
               <div class="down-content">
                 <h4>Jeunes utiles</h4>
@@ -67,10 +71,10 @@
                   et utile à la société..</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
+                <img src="{{ asset('assets/images/service-icon-02.png') }}" alt="">
               </div>
               <div class="down-content">
                 <h4>Enseignement de qualite</h4>
@@ -96,9 +100,11 @@
           <div class="categories">
             <h4>Valves</h4>
             <ul>
-              <li><a href="#">RÉGLEMENT D'ORDRE INTÉRIEUR</a></li>
-              <li><a href="#">Condition d'inscription</a></li>
-              <li><a href="#">Offres d'emploi</a></li>
+                @foreach($valves as $valve)
+                    <li>
+                        <a href="{{ asset('storage/'.$valve->files) }}">{{ $valve->title ?? "" }}</a>
+                    </li>
+                @endforeach
             </ul>
             <div class="main-button-red">
               <a href="meetings.html">Tout Voir</a>
@@ -107,74 +113,29 @@
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>10.10.2021</span>
+              @foreach($articles as $article)
+                  <div class="col-lg-6">
+                      <div class="meeting-item">
+                          <div class="thumb">
+                              <div class="price">
+                                  <span>{{ $article->created_at->format('Y-m-d') }}</span>
+                              </div>
+                              <a href="">
+                                  <img src="{{ asset('storage/'.$article->picture) }}" alt="{{ $article->title }}" height="70%" width="40%">
+                              </a>
+                          </div>
+                          <div class="down-content">
+                              <div class="date">
+                                  <h6>{{ $article->created_at->format('M') }}<span>{{ $article->created_at->format('d') }}</span></h6>
+                              </div>
+                              <a href="">
+                                  <h4>{{ $article->title }}</h4>
+                              </a>
+                              <p>{{ $article->resume }}</p>
+                          </div>
+                      </div>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>10</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                  <span>10.10.2021</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>24</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                  <span>10.10.2021</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>26</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Higher Education Conference</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                  <span>10.10.2021</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>30</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Student Training Meetup</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
+              @endforeach
           </div>
         </div>
       </div>
@@ -207,11 +168,11 @@
                     N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
                     but lucratif non confessionnelle...
                   </p>
-               
+
               </div>
             </div>
             <div class="col-lg-12">
-              
+
             </div>
           </div>
         </div>
@@ -232,11 +193,11 @@
               l’état en vue de préparer le Congo de demain et par ricochet
               donner du travail à la population...
               </p>
-              
+
         </div>
-        
+
         </div>
-    
+
     <div id="present_ecole" class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
@@ -245,21 +206,21 @@
               <div class="item">
                 <h3>DE L’INTERVENTION  DE L’ETAT</h3>
                 <p>
-                Notre souci est de pouvoir accompagner les autorités de notre pays à rendre effectif l’enseignement obligatoire pour tous les enfants ;pour atteindre cet objectif ,qu’il nous soit permis de lancer un vibrant  appel au gouvernement de soutenir notre œuvre en la retenant parmi les écoles devant bénéficier des subventions de l’Etat dans le cadre de la politique de gratuité de l’enseignement primaire et secondaire tel que prescrit dans notre constitution. 
+                Notre souci est de pouvoir accompagner les autorités de notre pays à rendre effectif l’enseignement obligatoire pour tous les enfants ;pour atteindre cet objectif ,qu’il nous soit permis de lancer un vibrant  appel au gouvernement de soutenir notre œuvre en la retenant parmi les écoles devant bénéficier des subventions de l’Etat dans le cadre de la politique de gratuité de l’enseignement primaire et secondaire tel que prescrit dans notre constitution.
                     <br> <br>
                     Elle est dotée d’une personnalité juridique accordée par le ministère de
                     la justice et droits humains par son arrêté ministériel
                     N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
                     but lucratif non confessionnelle...
                   </p>
-               
+
               </div>
             </div>
             <div class="col-lg-12">
             <div class="main-button-red">
                   <div class="scroll-to-section"><a href="#contact">lire plus</a></div>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -267,11 +228,11 @@
         <div class="item">
         <h3> DES  SECTIONS ORGANISEES</h3>
            <p>
-          
+
 Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi
-à beaucoup des parents de nous faire confiance dans une grande diversité culturelle, 
+à beaucoup des parents de nous faire confiance dans une grande diversité culturelle,
 nous organisons les enseignements au niveau de l’école maternelle,
- de l’école primaire et enfin de l’école secondaire. 
+ de l’école primaire et enfin de l’école secondaire.
       En ce qui concerne précisément l’école secondaire  notre complexe scolaire organise les enseignements dans les sections ci-après :
       <br> <b> Section littéraire, option latin-philo</b>
       <br> <b>Section  scientifique, options math physique et  biologie -chimie</b>
@@ -281,26 +242,29 @@ nous organisons les enseignements au niveau de l’école maternelle,
       <br><b>Section technique, options électricité et mécanique générale</b>
 
               </p>
-              
+
         </div>
-        
+
         </div>
       </div>
     </div>
   </section>
- 
+
 
   <section class="contact-us" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 align-self-center">
           <div class="row">
-            <div class="col-lg-12">
-            <div id="contact">
-            Notre galerie
-            </div>
-            
-            </div>
+              @foreach($galleries as $gallery)
+                  <div class="col-lg-6">
+                      <div class="meeting-item">
+                          <div class="thumb">
+                              <img src="{{ asset('storage/'.$gallery->picture) }}" alt="{{ $article->key ?? "" }}" height="70%" width="40%">
+                          </div>
+                      </div>
+                  </div>
+              @endforeach
           </div>
         </div>
         <div class="col-lg-4">
@@ -330,7 +294,7 @@ nous organisons les enseignements au niveau de l’école maternelle,
     </div>
     <div class="footer">
       <p>Copyright © 2022 CS NSANGA LE THANZIE., Ltd. All Rights Reserved. <a href="fintchweb.com">By FintchWeb</a>
-         
+
         </p>
     </div>
   </section>
