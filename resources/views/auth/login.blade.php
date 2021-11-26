@@ -72,7 +72,7 @@
                     </div>
                     <div class="nk-block nk-auth-footer">
                         <div class="mt-3">
-                            <p>&copy; {{ now('Y')->format('Y') }} Discovery Congo. Tout droit reserver.</p>
+                            <p>&copy; {{ now('Y')->format('Y') }} FintchWeb. Tout droit reserver.</p>
                         </div>
                     </div>
                 </div>

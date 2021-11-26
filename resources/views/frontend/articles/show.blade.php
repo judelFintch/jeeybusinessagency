@@ -3,7 +3,6 @@
 @section('title')
     DETAIL
 @endsection
-
 @section('content')
   <section class="heading-page header-text" id="top">
     <div class="container">
@@ -15,7 +14,6 @@
       </div>
     </div>
   </section>
-
   <section class="meetings-page" id="meetings">
     <div class="container">
       <div class="row">
