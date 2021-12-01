@@ -9,10 +9,7 @@
     @yield('styles')
 </head>
 <body class="tt-page-product-single">
-
-        @include('apps.partials.navbar')
-  
-
+        @include('apps.partials.navbar_detail')
     <main>
         @yield('content')
     </main>
