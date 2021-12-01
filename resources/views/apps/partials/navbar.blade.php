@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="left-content">
-            <p>Website enconstruction.</p>
+           
           </div>
         </div>
         <div class="col-lg-4 col-sm-4">
@@ -28,7 +28,7 @@
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="/" class="logo">
-                          <img src="assets/images/logo.png" height="70">
+                          <img src="{{ asset('assets/images/logo.png') }}" height="70">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->

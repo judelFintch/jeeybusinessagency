@@ -25,7 +25,7 @@
                   <div class="date">
                     <h6>{{ $article->created_at->format('M') }}<span>{{ $article->created_at->format('d') }}</span></h6>
                   </div>
-                    <img src="{{ asset('storage/'.$article->picture) }}" alt="">
+                    <img height="500" width="500" src="{{ asset('storage/'.$article->picture) }}" alt="">
                 </div>
                 <div class="down-content">
                   <h4>{{ $article->resume }}</h4>
