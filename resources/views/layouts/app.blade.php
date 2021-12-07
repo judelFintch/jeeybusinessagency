@@ -9,7 +9,6 @@
         @yield('styles')
 </head>
 <body class="tt-page-product-single">
-
         @include('apps.partials.navbar')
     <main>
         @yield('content')

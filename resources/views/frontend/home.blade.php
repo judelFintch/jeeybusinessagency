@@ -164,7 +164,10 @@
                     Elle est dotée d’une personnalité juridique accordée par le ministère de
                     la justice et droits humains par son arrêté ministériel
                     N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
-                    but lucratif non confessionnelle...
+                    but lucratif non confessionnelle.
+                    Le complexe scolaire NSANGA LE THANZIE a été agréé par le ministère de l’enseignement primaire et secondaire
+                     à travers l’arrêté ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre 2010 <br>
+                     et il fonctionne normalement jusqu’à ce jour. 
                   </p>
 
               </div>
@@ -214,9 +217,7 @@
               </div>
             </div>
             <div class="col-lg-12">
-            <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">lire plus</a></div>
-              </div>
+           
 
             </div>
           </div>
@@ -240,6 +241,9 @@
               </p>
         </div>
         </div>
+        <div class="main-button-red">
+                  <div class="scroll-to-"><a href="{{route('home.about')}}">lire plus</a></div>
+              </div>
       </div>
     </div>
   </section>
