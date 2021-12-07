@@ -33,11 +33,11 @@
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li class="scroll-to-section"><a href="/" class="active">Home</a></li>
-                          <li class="scroll-to-section"><a href="">APROPOS</a></li>
-                          <li class="scroll-to-section"><a href="#courses">PUBLICATION</a></li>
-                          <li class="scroll-to-section"><a href="">PALMARESS</a></li> 
-                          <li class="scroll-to-section"><a href="">INSCRIPTION</a></li> 
+                          <li class="scroll-to-sectio"><a href="/" class="active">Home</a></li>
+                          <li class="scroll-to-sectio"><a href="">APROPOS</a></li>
+                          <li class="scroll-to-sectio"><a href="{{route('article.all')}}">PUBLICATION</a></li>
+                          <li class="scroll-to-sectio"><a href="">PALMARESS</a></li> 
+                          <li class="scroll-to-sectio"><a href="">INSCRIPTION</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>

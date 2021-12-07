@@ -19,7 +19,7 @@
                   Bienvenue sur le site web officiel du CS SANGA LE THANZIE<br>
                   Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
                   en République Démocratique du Congo.
-                  Notre école fonctionne sur deux sites : (CSTHAZIE 1 & CSTHAZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
+                  Notre école fonctionne sur deux sites : (CSTHANZIE 1 & CSTHANZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
                   premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
                   Gambela II abrite l’école maternelle et primaire tandis que le deuxième
                   bloc sis au numero 165 de l'avenue  Kasangulu coin de l’Eglise abrite l’école
@@ -159,9 +159,7 @@
                     dans la Province du Haut- Katanga.
                     Elle a été créée à Lubumbashi en date du 09/08/2010 par des
                     congolais soucieux de promouvoir l’éducation en République
-                    Démocratique du Congo en général et plus particulièrement à
-                    Lubumbashi en ciblant les quartiers les plus reculés dont les parents ont
-                    un revenu modeste.
+                    Démocratique du Congo en général.
                     <br>
                     Elle est dotée d’une personnalité juridique accordée par le ministère de
                     la justice et droits humains par son arrêté ministériel
@@ -213,7 +211,6 @@
                     N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
                     but lucratif non confessionnelle...
                   </p>
-
               </div>
             </div>
             <div class="col-lg-12">
@@ -229,28 +226,23 @@
         <h3> DES  SECTIONS ORGANISEES</h3>
            <p>
 
-Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi
-à beaucoup des parents de nous faire confiance dans une grande diversité culturelle,
-nous organisons les enseignements au niveau de l’école maternelle,
- de l’école primaire et enfin de l’école secondaire.
-      En ce qui concerne précisément l’école secondaire  notre complexe scolaire organise les enseignements dans les sections ci-après :
-      <br> <b> Section littéraire, option latin-philo</b>
-      <br> <b>Section  scientifique, options math physique et  biologie -chimie</b>
-      <br><b> Section commerciale  de gestion.</b>
-      <br> <b>Section pédagogique générale</b>
-      <br> <b>Section coupe et couture</b>
-      <br><b>Section technique, options électricité et mécanique générale</b>
-
+              Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi
+              à beaucoup des parents de nous faire confiance dans une grande diversité culturelle,
+              nous organisons les enseignements au niveau de l’école maternelle,
+              de l’école primaire et enfin de l’école secondaire.
+                    En ce qui concerne précisément l’école secondaire  notre complexe scolaire organise les enseignements dans les sections ci-après :
+                    <br> <b> Section littéraire, option latin-philo</b>
+                    <br> <b>Section  scientifique, options math physique et  biologie -chimie</b>
+                    <br><b> Section commerciale  de gestion.</b>
+                    <br> <b>Section pédagogique générale</b>
+                    <br> <b>Section coupe et couture</b>
+                    <br><b>Section technique, options électricité et mécanique générale</b>
               </p>
-
         </div>
-
         </div>
       </div>
     </div>
   </section>
-
-
   <section class="contact-us" id="contact">
     <div class="container">
       <div class="row">

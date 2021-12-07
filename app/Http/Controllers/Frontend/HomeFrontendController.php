@@ -34,4 +34,18 @@ class HomeFrontendController extends Controller
             'article' => $this->repository->getOneByKey($key)
         ]);
     }
+
+    public function all_articles()
+    {
+        return view('frontend.articles.all_article', [
+            'article' => 1
+        ]);
+    }
+
+    public function about()
+    {
+        return view('frontend.about_us', [
+            'article' => 1
+        ]);
+    }
 }
