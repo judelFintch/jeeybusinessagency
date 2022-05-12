@@ -18,7 +18,7 @@
           <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Bienvenue sur <span>csnsangalethanzie.org</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Bienvenue sur <span>sur notre site</span></h2>
                 <p class="animate__animated animate__fadeInUp">Une école d'excellence pour l'étude et la formation de votre enfant. La qualité, les meilleurs enseignants, les programmes scolaires conçues sur-mesure, des salles de classes avec de fournitures modernes..</p>
                 <a href="" class="btn-get-started animate__animated animate__fadeInUp">Lire Plus</a>
               </div>

@@ -43,18 +43,18 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1><a href="index.html">csnsangalethanzie</a></h1>
+        <h1><a href="{{route('home.index')}}">csnsangalethanzie</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="index.html">Acceuil</a></li>
+          <li><a class="active" href="{{route('home.index')}}">Acceuil</a></li>
           <li class="dropdown"><a href="#"><span>Apropos</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Historique</a></li>
-              <li><a href="#">Bloc-1</a></li>
+              <li><a href="{{route('home.about')}}">Historique</a></li>
+              <li><a href="{{route('underconstruct')}}">Bloc-1</a></li>
               <li><a href="#">Bloc-2</a></li>
               <li><a href="#">Visionnaire</a></li>
             </ul>

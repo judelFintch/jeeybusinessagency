@@ -48,4 +48,11 @@ class HomeFrontendController extends Controller
             'article' => 1
         ]);
     }
+
+    public function under()
+    {
+        return view('frontend.underconstruct', [
+            'article' => 1
+        ]);
+    }
 }

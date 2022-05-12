@@ -30,6 +30,7 @@ Route::group(['middleware' => 'auth'], function (){
 });
 
 
+
 Route::get('/', [HomeFrontendController::class, 'index'])->name('home.index');
 Route::get('/about', [HomeFrontendController::class, 'about'])->name('home.about');
 Route::get('/nos-article/{key}', [HomeFrontendController::class, 'show'])->name('article.voirplus');
@@ -37,4 +38,5 @@ Route::get('/all_articles', [HomeFrontendController::class, 'all_articles'])->na
 Route::get('/section', [App\Http\Controllers\MainController::class, 'section'])->name('section');
 Route::get('/about_us', [App\Http\Controllers\MainController::class, 'section'])->name('about_us');
 Route::get('/job', [App\Http\Controllers\MainController::class, 'inscription'])->name('job');
+Route::get('/underconstruct', [HomeFrontendController::class, 'under'])->name('underconstruct');
 Route::get('/inscription', [App\Http\Controllers\MainController::class, 'inscription'])->name('inscription');
