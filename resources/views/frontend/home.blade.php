@@ -5,294 +5,199 @@
 @endsection
 
 @section('content')
-  <section class="section main-banner" id="top" data-section="section1">
-      <video autoplay muted loop id="bg-video">
-          <source src="{{ asset('assets/images/1.mp4') }}" type="video/mp4" />
-      </video>
-      <div class="video-overlay header-text">
-          <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                <div class="caption">
-                  <h2>CS NSANGA LE THANZIE</h2>
-                <p>
-                  Bienvenue sur le site web officiel du CS SANGA LE THANZIE<br>
-                  Nous sommes un Complexe Scolaire se trouvant dans la ville de Lubumbashi,
-                  en République Démocratique du Congo.
-                  Notre école fonctionne sur deux sites : (CSTHANZIE 1 & CSTHANZIE 2) Notre complexe scolaire dispose de deux principaux bâtiments dont le
-                  premier bloc situé au numéro 3539 de l’avenue Kalombo au quartier
-                  Gambela II abrite l’école maternelle et primaire tandis que le deuxième
-                  bloc sis au numero 165 de l'avenue  Kasangulu coin de l’Eglise abrite l’école
-                  secondaire. Les deux imposants bâtiments sont construits en matériaux
-                  durables avec une architecture moderne offrant à cet effet une garantie
-                  de bonnes conditions d’études aux élèves qui y sont encadrés.
-              </p>
-              <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="{{route('about_us')}}">Lire plus</a></div>
-              </div></div>
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Bienvenue sur <span>csnsangalethanzie.org</span></h2>
+                <p class="animate__animated animate__fadeInUp">Une école d'excellence pour l'étude et la formation de votre enfant. La qualité, les meilleurs enseignants, les programmes scolaires conçues sur-mesure, des salles de classes avec de fournitures modernes..</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Lire Plus</a>
               </div>
-              <div class="col-lg-6">
-              <div class="caption">
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated fanimate__adeInDown">Discipline <span>Prosperite- Travail</span></h2>
+                <p class="animate__animated animate__fadeInUp">Notre devise etant de promoivoir la disciplene, le travail et l'exellence l'ecole se dote d'un espace et des enseignants competant.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Lire plus</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Etudiez  <span>en ligne</span></h2>
+                <p class="animate__animated animate__fadeInUp">Avec notre plate forme d'etude en ligne.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+        <div class="section-title">
+          <h2> Sections organisées</h2>
+          Pour un bon encadrement et la réussite de la formation des enfants, notre Ecole organise differentes options. Nous visons l'excellence dans chaque option. Nos options sont les suivantes
+        </div>
+       
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="details_options.html">Maternelle</a></h3>
+              <p>L’enseignement maternel est réglementé dans notre pays, il est doté d’un programme national en cours de validité. La documentation sur la didactique spéciale des activités et les prévisions des matières est disponible</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">Primaire</a></h3>
+              <p>L’école primaire constitue l’enseignement fondamental dans le cursus scolaire d’un élève. C’est le socle par excellence sur lequel se tissera toute sa formation ultérieure, son instruction à venir et même son éducation pour la vie</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">Secondaire</a></h3>
+              <p>L’école primaire constitue l’enseignement fondamental dans le cursus scolaire d’un élève. C’est le socle par excellence sur lequel se tissera toute sa formation ultérieure, son instruction à venir et même son éducation pour la vie</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Apropos de nous.</h3>
               <p>
+                <b>NSANGA LE THANZIE</b> est une Association Sans But Lucratif qui œuvre dans le secteur de l’éducation ; situé au numéro <b>165 </b>de l’avenue Kasangulu coin de l’Eglise et <b>3539 </b>de l’avenue Kalombo  au quartier Gambela dans la Province du Haut- Katanga. Elle a été créée à Lubumbashi en date du <b> 08/2010</b> par des congolais soucieux de promouvoir l’éducation en République Démocratique du Congo.
+                  Elle est dotée d’une personnalité juridique accordée par le ministère de la justice et droits humains par son arrêté ministériel <b> N°451/CAB/MIN/J&DH/2010 du 09/11/2010</b>; 
+                Avec comme objectifs de Former la jeunesse de notre pays afin de la rendre <u>indépendante</u> et <u>utile</u> à la société.
+                Relever le niveau de l’enseignement en luttant contre les antivaleurs sous toutes ses formes ;
+                Contribuer à la formation de l’élite congolaise par un enseignement de qualité tel que prévue par la législation congolaise en la matière ;
+                Participer activement au chantier éducation prôné par le chef de l’état en vue de préparer le Congo de demain et par ricochet donner du travail à la population....
+            </p>
+          </div>
+        </div>
 
-              </p>
-              </div>
-            </div>
-          </div>
-          </div>
       </div>
-  </section>
-  <!-- ***** Main Banner Area End ***** -->
-<br>
-  <section class="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-service-item owl-carousel">
+    </section><!-- End About Section -->
 
-            <div class="item">
-              <div class="icon">
-                <img src="{{ asset('assets/images/service-icon-01.png') }}" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Discipline et Travail</h4>
-                <p>Former la jeunesse de notre pays afin de la rendre indépendante et utile à la société.</p>
-              </div>
-            </div>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Nos Options organisées</h2>
+          Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi à beaucoup des parents de nous faire confiance dans une grande diversité culturelle, nous organisons les enseignements au niveau de l’école maternelle, de l’école primaire et enfin de l’école secondaire. En ce qui concerne précisément l’école secondaire notre complexe scolaire organise les enseignements dans les sections ci-après :
+        </div>
+        <script>
+        /* $(function(){
+           $('.option_sec').show();
+         });
 
-            <div class="item">
-              <div class="icon">
-                <img src="{{ asset('assets/images/service-icon-02.png') }}" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Jeunes utiles</h4>
-                <p>
-                  Former la jeunesse de notre pays afin de la rendre indépendante
-                  et utile à la société..</p>
-              </div>
-            </div>
+         $('.latin_op').mouseover(function(){
+          $('.option_sec').show();
 
-            <div class="item">
-              <div class="icon">
-                <img src="{{ asset('assets/images/service-icon-02.png') }}" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Enseignement de qualite</h4>
-                <p>
-                  Relever le niveau de l’enseignement en luttant contre les
-                    antivaleurs sous toutes ses formes.</p>
-              </div>
+         });*/
+        </script>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="latin_op"><a href="">Latin-philo</a></h4>
+              <p class="option_sec">Formation dans la la section Litteraire a partir de la 3 secondaire</p>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Coupe  et Couture</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Electricité</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Biologie et Chimie</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Math et Physique</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Commerciale de gestion</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
         </div>
+
       </div>
-    </div>
-  </section>
-  <section class="upcoming-meetings" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h2>Nos Publications</h2>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="categories">
-            <h4>Valves</h4>
-            <ul>
-                @foreach($valves as $valve)
-                    <li>
-                        <a href="{{ asset('storage/'.$valve->files) }}">{{ $valve->title ?? "" }}</a>
-                    </li>
-                @endforeach
-            </ul>
-            <div class="main-button-red">
-              <a href="meetings.html">Tout Voir</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-              @foreach($articles as $article)
-                  <div class="col-lg-6">
-                      <div class="meeting-item">
-                          <div class="thumb">
-                              <div class="price">
-                                  <span>{{ $article->created_at->format('Y-m-d') }}</span>
-                              </div>
-                              <a href="{{ route('article.voirplus', $article->key) }}">
-                                  <img src="{{ asset('storage/'.$article->picture) }}" class="img-fluid" alt="{{ $article->title }}" height="70%" width="40%">
-                              </a>
-                          </div>
-                          <div class="down-content">
-                              <div class="date">
-                                  <h6>{{ $article->created_at->format('M') }}<span>{{ $article->created_at->format('d') }}</span></h6>
-                              </div>
-                              <a href="{{ route('article.voirplus', $article->key) }}">
-                                  <h4>{{ $article->title }}</h4>
-                              </a>
-                              <p>{{ $article->resume }}</p>
-                          </div>
-                      </div>
-                  </div>
-              @endforeach
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section><!-- End Services Section -->
 
-  <section class="apply-now" id="apply" id="">
-    <div id="present_ecole" class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="item">
-                <h3>LA PRESENTATION</h3>
-                <p>
-                    NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre
-                    dans le secteur de l’éducation et qui offre un excellent cadre de
-                    formation pour la jeunesse de la République Démocratique du Congo ;
-                    Le siège social de notre Asbl est situé au numéro 165 de l’avenue
-                    Kasangulu coin de l’Eglise au quartier Gambela non loin de l’Université de Lubumbashi
-                    dans la Province du Haut- Katanga.
-                    Elle a été créée à Lubumbashi en date du 09/08/2010 par des
-                    congolais soucieux de promouvoir l’éducation en République
-                    Démocratique du Congo en général.
-                    <br>
-                    Elle est dotée d’une personnalité juridique accordée par le ministère de
-                    la justice et droits humains par son arrêté ministériel
-                    N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
-                    but lucratif non confessionnelle.
-                    Le complexe scolaire NSANGA LE THANZIE a été agréé par le ministère de l’enseignement primaire et secondaire
-                     à travers l’arrêté ministériel numéro MINEPSP/CABMIN/0467/2010 du 06 septembre 2010 <br>
-                     et il fonctionne normalement jusqu’à ce jour. 
-                  </p>
+    
 
-              </div>
-            </div>
-            <div class="col-lg-12">
+  </main><!-- End #main -->
 
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-        <div class="item">
-        <h3>NOS OBJECTIFS</h3>
-           <p>
-              Les objectifs que nous nous sommes assignés en créant cette
-              gigantesque œuvre sont les suivants : <br> <br>
-              Former la jeunesse de notre pays afin de la rendre indépendante
-              et utile à la société. <br>
-              Relever le niveau de l’enseignement en luttant contre les
-              antivaleurs sous toutes ses formes ; <br>
-              Contribuer à la formation de l’élite congolaise par un enseignement
-              de qualité tel que prévue par la législation congolaise en la matière
-              ;<br>
-               Participer activement au chantier éducation prôné par le chef de
-              l’état en vue de préparer le Congo de demain et par ricochet
-              donner du travail à la population...
-              </p>
-
-        </div>
-
-        </div>
-
-    <div id="present_ecole" class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="item">
-                <h3>DE L’INTERVENTION  DE L’ETAT</h3>
-                <p>
-                Notre souci est de pouvoir accompagner les autorités de notre pays à rendre effectif l’enseignement obligatoire pour tous les enfants ;pour atteindre cet objectif ,qu’il nous soit permis de lancer un vibrant  appel au gouvernement de soutenir notre œuvre en la retenant parmi les écoles devant bénéficier des subventions de l’Etat dans le cadre de la politique de gratuité de l’enseignement primaire et secondaire tel que prescrit dans notre constitution.
-                    <br> <br>
-                    Elle est dotée d’une personnalité juridique accordée par le ministère de
-                    la justice et droits humains par son arrêté ministériel
-                    N°451/CAB/MIN/J&amp;DH/2010 du 09/11/2010 en tant qu’Association sans
-                    but lucratif non confessionnelle...
-                  </p>
-              </div>
-            </div>
-            <div class="col-lg-12">
-           
-
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-        <div class="item">
-        <h3> DES  SECTIONS ORGANISEES</h3>
-           <p>
-
-              Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi
-              à beaucoup des parents de nous faire confiance dans une grande diversité culturelle,
-              nous organisons les enseignements au niveau de l’école maternelle,
-              de l’école primaire et enfin de l’école secondaire.
-                    En ce qui concerne précisément l’école secondaire  notre complexe scolaire organise les enseignements dans les sections ci-après :
-                    <br> <b> Section littéraire, option latin-philo</b>
-                    <br> <b>Section  scientifique, options math physique et  biologie -chimie</b>
-                    <br><b> Section commerciale  de gestion.</b>
-                    <br> <b>Section pédagogique générale</b>
-                    <br> <b>Section coupe et couture</b>
-                    <br><b>Section technique, options électricité et mécanique générale</b>
-              </p>
-        </div>
-        </div>
-        <div class="main-button-red">
-                  <div class="scroll-to-"><a href="{{route('home.about')}}">lire plus</a></div>
-              </div>
-      </div>
-    </div>
-  </section>
-  <section class="contact-us" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 align-self-center">
-          <div class="row">
-              @foreach($galleries as $gallery)
-                  <div class="col-lg-6">
-                      <div class="meeting-item">
-                          <div class="img-fluid rounded">
-                              <img src="{{ asset('storage/'.$gallery->picture) }}" alt="{{ $article->key ?? "" }}" height="70%" width="40%">
-                          </div>
-                      </div>
-                  </div>
-              @endforeach
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-info">
-            <ul>
-              <li>
-                <h6>Phone Number</h6>
-                <span>243 99 29 01 370</span>
-                <span>+1 646 806 34 73</span>
-              </li>
-              <li>
-                <h6>Email Address</h6>
-                <span>info@csnsangalethanzie.org</span>
-              </li>
-              <li>
-                <h6>Address</h6>
-                <span>A Kasangulu et de l’Eglise abrite l’école</span>
-              </li>
-              <li>
-                <h6>Website URL</h6>
-                <span>www.csnsangalethanzie.org</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p>Copyright © 2022 CS NSANGA LE THANZIE., Ltd. All Rights Reserved. <a href="fintchweb.com">By FintchWeb</a>
-
-        </p>
-    </div>
-  </section>
-</body>
+  <!-- ======= Footer ======= -->
+ 
 @endsection
