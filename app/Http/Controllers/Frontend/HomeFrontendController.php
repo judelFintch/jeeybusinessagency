@@ -49,6 +49,28 @@ class HomeFrontendController extends Controller
         ]);
     }
 
+    public function bloc_un()
+    {
+        return view('frontend.bloc_un', [
+            'article' => 1
+        ]);
+    }
+
+    public function bloc_deux()
+    {
+        return view('frontend.bloc_deux', [
+            'article' => 1
+        ]);
+    }
+
+    public function visionnaire()
+    {
+        return view('frontend.visionnaire', [
+            'article' => 1
+        ]);
+    }
+
+
     public function under()
     {
         return view('frontend.underconstruct', [

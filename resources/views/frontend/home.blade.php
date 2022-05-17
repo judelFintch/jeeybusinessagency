@@ -9,11 +9,8 @@
 <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
         <div class="carousel-inner" role="listbox">
-
           <!-- Slide 1 -->
           <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
             <div class="carousel-container">
@@ -128,16 +125,7 @@
           <h2>Nos Options organisées</h2>
           Dans le souci d’offrir l’éducation à un plus grand nombre d’enfants et permettre ainsi à beaucoup des parents de nous faire confiance dans une grande diversité culturelle, nous organisons les enseignements au niveau de l’école maternelle, de l’école primaire et enfin de l’école secondaire. En ce qui concerne précisément l’école secondaire notre complexe scolaire organise les enseignements dans les sections ci-après :
         </div>
-        <script>
-        /* $(function(){
-           $('.option_sec').show();
-         });
-
-         $('.latin_op').mouseover(function(){
-          $('.option_sec').show();
-
-         });*/
-        </script>
+        
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">

@@ -33,6 +33,11 @@ Route::group(['middleware' => 'auth'], function (){
 
 Route::get('/', [HomeFrontendController::class, 'index'])->name('home.index');
 Route::get('/about', [HomeFrontendController::class, 'about'])->name('home.about');
+Route::get('/bloc_un.html', [HomeFrontendController::class, 'bloc_un'])->name('front.bloc_un');
+Route::get('/bloc_deux.html', [HomeFrontendController::class, 'bloc_deux'])->name('front.bloc_deux');
+Route::get('/visionnaire.html', [HomeFrontendController::class, 'visionnaire'])->name('front.visionnaire');
+
+
 Route::get('/nos-article/{key}', [HomeFrontendController::class, 'show'])->name('article.voirplus');
 Route::get('/all_articles', [HomeFrontendController::class, 'all_articles'])->name('article.all');
 Route::get('/section', [App\Http\Controllers\MainController::class, 'section'])->name('section');

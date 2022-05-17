@@ -54,9 +54,9 @@
           <li class="dropdown"><a href="#"><span>Apropos</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{route('home.about')}}">Historique</a></li>
-              <li><a href="{{route('underconstruct')}}">Bloc-1</a></li>
-              <li><a href="#">Bloc-2</a></li>
-              <li><a href="#">Visionnaire</a></li>
+              <li><a href="{{route('front.bloc_un')}}">Bloc-1</a></li>
+              <li><a href="{{route('front.bloc_deux')}}">Bloc-2</a></li>
+              <li><a href="{{route('front.visionnaire')}}">Visionnaire</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Organisations</span> <i class="bi bi-chevron-down"></i></a>
