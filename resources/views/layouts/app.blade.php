@@ -61,9 +61,9 @@
           </li>
           <li class="dropdown"><a href="#"><span>Organisations</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Maternelle</a></li>
-              <li><a href="#">Primaire</a></li>
-              <li><a href="#">Secondaire</a></li>
+              <li><a href="{{route('front.maternelle')}}">Maternelle</a></li>
+              <li><a href="{{route('front.primaire')}}">Primaire</a></li>
+              <li><a href="{{route('front.secondaire')}}">Secondaire</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Sections</span> <i class="bi bi-chevron-down"></i></a>

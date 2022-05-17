@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class OrganizationFrontendController extends Controller
+{
+    //
+
+    public function sectionMat(){
+        
+    }
+}

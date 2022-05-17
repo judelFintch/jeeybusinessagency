@@ -6,6 +6,7 @@ use App\Http\Controllers\Backend\HomeBackendController;
 use App\Http\Controllers\Backend\UserBackendController;
 use App\Http\Controllers\Backend\ValveBackendController;
 use App\Http\Controllers\Frontend\HomeFrontendController;
+use App\Http\Controllers\OrganizationFrontendController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -36,6 +37,12 @@ Route::get('/about', [HomeFrontendController::class, 'about'])->name('home.about
 Route::get('/bloc_un.html', [HomeFrontendController::class, 'bloc_un'])->name('front.bloc_un');
 Route::get('/bloc_deux.html', [HomeFrontendController::class, 'bloc_deux'])->name('front.bloc_deux');
 Route::get('/visionnaire.html', [HomeFrontendController::class, 'visionnaire'])->name('front.visionnaire');
+
+//organisation route
+Route::get('/oganisation_maternelle.html', [OrganizationFrontendController::class, 'sectionMat'])->name('front.maternelle');
+Route::get('/organisation_primaire.html', [OrganizationFrontendController::class, 'sectionPri'])->name('front.primaire');
+Route::get('/organisation_secondaire.html', [OrganizationFrontendController::class, 'sectionSec'])->name('front.secondaire');
+
 
 
 Route::get('/nos-article/{key}', [HomeFrontendController::class, 'show'])->name('article.voirplus');
