@@ -45,7 +45,8 @@ Route::get('/organisation_secondaire.html', [OrganizationFrontendController::cla
 
 //gallery route
 Route::get('/gallery.html', [HomeFrontendController::class, 'gallery'])->name('front.gallery');
-Route::get('/actualite.html', [HomeFrontendController::class, 'actualite'])->name('front.actualite');
+Route::get('/actualite.html', [HomeFrontendController::class, 'actu'])->name('front.actualite');
+Route::get('/contact.html', [HomeFrontendController::class, 'contact'])->name('front.contact');
 
 
 

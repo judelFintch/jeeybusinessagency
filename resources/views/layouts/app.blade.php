@@ -70,7 +70,7 @@
           <li><a href="{{route('front.gallery')}}">Gallerie</a></li>
           <li><a href="{{route('front.actualite')}}">Actualités</a></li>
           <li><a href="https://web45.lws-hosting.com:2096/">WebMail</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="{{route('front.contact')}}">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,7 +89,7 @@
     <div class="row">
       <div class="col-lg-6">
         <h4>Our Newsletter</h4>
-        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        <p>Inscrivez vous pour le news notifications</p>
       </div>
       <div class="col-lg-6">
         <form action="" method="post">
@@ -129,18 +129,18 @@
       <div class="col-lg-3 col-md-6 footer-contact">
         <h4>Contact Us</h4>
         <p>
-          A108 Adam Street <br>
-          New York, NY 535022<br>
-          United States <br><br>
-          <strong>Phone:</strong> +1 5589 55488 55<br>
-          <strong>Email:</strong> info@example.com<br>
+        3539 Av Kalombo  et   165 de l'avenue Kasangulu coin de l’Eglise <br>
+          Gambela 2,Lubumbashi <br>
+          Republique Democratique du Congo<br>
+          <strong>Phone:</strong> +1 646 806 34 73<br>
+          <strong>Email:</strong> info@csnsangalethanzie.org<br>
         </p>
 
       </div>
 
       <div class="col-lg-3 col-md-6 footer-info">
         <h3>About Eterna</h3>
-        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+        <p>NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre dans le secteur de l’éducation et qui offre un excellent cadre de formation pour la jeunesse de la République Démocratique du Congo.</p>
         <div class="social-links mt-3">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

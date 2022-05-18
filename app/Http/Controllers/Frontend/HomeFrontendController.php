@@ -72,14 +72,24 @@ class HomeFrontendController extends Controller
 
     public function gallery()
     {
-        return view('frontend.visionnaire', [
+        return view('frontend.gallery', [
             'article' => 1
         ]);
     }
 
+
+    public function actu()
+    {
+        return view('frontend.gallery', [
+            'article' => 1
+        ]);
+    }
+
+   
+
     public function contact()
     {
-        return view('frontend.visionnaire', [
+        return view('frontend.contact', [
             'article' => 1
         ]);
     }
