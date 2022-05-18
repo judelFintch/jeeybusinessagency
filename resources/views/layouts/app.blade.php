@@ -139,7 +139,7 @@
       </div>
 
       <div class="col-lg-3 col-md-6 footer-info">
-        <h3>About Eterna</h3>
+        <h3>Apropos de nous</h3>
         <p>NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre dans le secteur de l’éducation et qui offre un excellent cadre de formation pour la jeunesse de la République Démocratique du Congo.</p>
         <div class="social-links mt-3">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
