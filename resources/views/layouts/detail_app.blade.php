@@ -8,15 +8,14 @@
     @include('apps.partials.css')
     @yield('styles')
 </head>
-<body class="tt-page-product-single">
-        @include('apps.partials.navbar_detail')
-    <main>
-        @yield('content')
-    </main>
-    @include('apps.partials.footer')
-    @include('apps.partials.javascript')
-    @yield('scripts')
-    @include('sweetalert::alert')
-    
-</body>
+        <body class="tt-page-product-single">
+                @include('apps.partials.navbar_detail')
+            <main>
+                @yield('content')
+            </main>
+            @include('apps.partials.footer')
+            @include('apps.partials.javascript')
+            @yield('scripts')
+            @include('sweetalert::alert')
+        </body>
 </html>

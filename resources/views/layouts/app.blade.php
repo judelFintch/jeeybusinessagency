@@ -66,16 +66,11 @@
               <li><a href="{{route('front.secondaire')}}">Secondaire</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Sections</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Maternelle</a></li>
-              <li><a href="#">Primaire</a></li>
-              <li><a href="#">Secondaire</a></li>
-            </ul>
-          </li>
-          <li><a href="">Gallerie</a></li>
-          <li><a href="">Actualités</a></li>
-          <li><a href="contact.html">Contact</a></li>
+
+          <li><a href="{{route('front.gallery')}}">Gallerie</a></li>
+          <li><a href="{{route('front.actualite')}}">Actualités</a></li>
+          <li><a href="https://web45.lws-hosting.com:2096/">WebMail</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

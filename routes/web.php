@@ -6,7 +6,7 @@ use App\Http\Controllers\Backend\HomeBackendController;
 use App\Http\Controllers\Backend\UserBackendController;
 use App\Http\Controllers\Backend\ValveBackendController;
 use App\Http\Controllers\Frontend\HomeFrontendController;
-use App\Http\Controllers\OrganizationFrontendController;
+use App\Http\Controllers\Frontend\OrganizationFrontendController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -42,6 +42,10 @@ Route::get('/visionnaire.html', [HomeFrontendController::class, 'visionnaire'])-
 Route::get('/oganisation_maternelle.html', [OrganizationFrontendController::class, 'sectionMat'])->name('front.maternelle');
 Route::get('/organisation_primaire.html', [OrganizationFrontendController::class, 'sectionPri'])->name('front.primaire');
 Route::get('/organisation_secondaire.html', [OrganizationFrontendController::class, 'sectionSec'])->name('front.secondaire');
+
+//gallery route
+Route::get('/gallery.html', [HomeFrontendController::class, 'gallery'])->name('front.gallery');
+Route::get('/actualite.html', [HomeFrontendController::class, 'actualite'])->name('front.actualite');
 
 
 

@@ -70,6 +70,20 @@ class HomeFrontendController extends Controller
         ]);
     }
 
+    public function gallery()
+    {
+        return view('frontend.visionnaire', [
+            'article' => 1
+        ]);
+    }
+
+    public function contact()
+    {
+        return view('frontend.visionnaire', [
+            'article' => 1
+        ]);
+    }
+
 
     public function under()
     {
