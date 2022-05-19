@@ -9,22 +9,22 @@ class OrganizationFrontendController extends Controller
 {
     //
     public function sectionMat(){
-        return view('frontend.sectionMaternelle', [
+        return view('frontend.maternelle', [
             'article' => 1
         ]);
-     
+    
     }
 
 
     public function sectionPri(){
-        return view('frontend.sectionMaternelle', [
+        return view('frontend.primaire', [
             'article' => 1
         ]);
      
     }
 
     public function sectionSec(){
-        return view('frontend.sectionMaternelle', [
+        return view('frontend.secondaire', [
             'article' => 1
         ]);
     }

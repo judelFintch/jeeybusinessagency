@@ -34,19 +34,19 @@ Route::group(['middleware' => 'auth'], function (){
 
 Route::get('/', [HomeFrontendController::class, 'index'])->name('home.index');
 Route::get('/about', [HomeFrontendController::class, 'about'])->name('home.about');
-Route::get('/bloc_un.html', [HomeFrontendController::class, 'bloc_un'])->name('front.bloc_un');
-Route::get('/bloc_deux.html', [HomeFrontendController::class, 'bloc_deux'])->name('front.bloc_deux');
-Route::get('/visionnaire.html', [HomeFrontendController::class, 'visionnaire'])->name('front.visionnaire');
+Route::get('/bloc_un', [HomeFrontendController::class, 'bloc_un'])->name('front.bloc_un');
+Route::get('/bloc_deux', [HomeFrontendController::class, 'bloc_deux'])->name('front.bloc_deux');
+Route::get('/visionnaire', [HomeFrontendController::class, 'visionnaire'])->name('front.visionnaire');
 
 //organisation route
-Route::get('/oganisation_maternelle.html', [OrganizationFrontendController::class, 'sectionMat'])->name('front.maternelle');
-Route::get('/organisation_primaire.html', [OrganizationFrontendController::class, 'sectionPri'])->name('front.primaire');
-Route::get('/organisation_secondaire.html', [OrganizationFrontendController::class, 'sectionSec'])->name('front.secondaire');
+Route::get('/oganisation_maternelle', [OrganizationFrontendController::class, 'sectionMat'])->name('front.maternelle');
+Route::get('/organisation_primaire', [OrganizationFrontendController::class, 'sectionPri'])->name('front.primaire');
+Route::get('/organisation_secondaire', [OrganizationFrontendController::class, 'sectionSec'])->name('front.secondaire');
 
 //gallery route
-Route::get('/gallery.html', [HomeFrontendController::class, 'gallery'])->name('front.gallery');
-Route::get('/actualite.html', [HomeFrontendController::class, 'actu'])->name('front.actualite');
-Route::get('/contact.html', [HomeFrontendController::class, 'contact'])->name('front.contact');
+Route::get('/gallery', [HomeFrontendController::class, 'gallery'])->name('front.gallery');
+Route::get('/actualite', [HomeFrontendController::class, 'actu'])->name('front.actualite');
+Route::get('/contac', [HomeFrontendController::class, 'contact'])->name('front.contact');
 
 
 

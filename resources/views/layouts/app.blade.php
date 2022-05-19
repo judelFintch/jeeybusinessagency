@@ -30,10 +30,10 @@
         <i class="bi bi-phone d-flex align-items-center ms-4"><span>+243 99 29 01 370</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-youtube"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        
+        
       </div>
     </div>
   </section>
@@ -142,11 +142,9 @@
         <h3>Apropos de nous</h3>
         <p>NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre dans le secteur de l’éducation et qui offre un excellent cadre de formation pour la jeunesse de la République Démocratique du Congo.</p>
         <div class="social-links mt-3">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          
         </div>
       </div>
 
