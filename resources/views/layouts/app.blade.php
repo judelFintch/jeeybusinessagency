@@ -31,7 +31,7 @@
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-youtube"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://web.facebook.com/CS-Nsanga-le-Thanzie-114997734545148" class="facebook"><i class="bi bi-facebook"></i></a>
         
         
       </div>
@@ -143,7 +143,7 @@
         <p>NSANGA LE THANZIE est une Association Sans But Lucratif qui œuvre dans le secteur de l’éducation et qui offre un excellent cadre de formation pour la jeunesse de la République Démocratique du Congo.</p>
         <div class="social-links mt-3">
           <a href="#" class="twitter"><i class="bx bxl-youtube"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://web.facebook.com/CS-Nsanga-le-Thanzie-114997734545148" class="facebook"><i class="bx bxl-facebook"></i></a>
           
         </div>
       </div>
