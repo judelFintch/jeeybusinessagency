@@ -31,7 +31,8 @@ class HomeFrontendController extends Controller
     public function show(string $key): Factory|View|Application
     {
         return view('frontend.articles.show', [
-            'article' => $this->repository->getOneByKey($key)
+            'article' => $this->repository->getOneByKey($key),
+            'valves' => $this->valveRepository->getAllVerified()
         ]);
     }
 
@@ -70,18 +71,21 @@ class HomeFrontendController extends Controller
         ]);
     }
 
-    public function gallery()
+    public function gallery():Factory|View|Application
     {
         return view('frontend.gallery', [
-            'article' => 1
+            'articles' => $this->repository->getAllVerified(),
+            'valves' => $this->valveRepository->getAllVerified()
         ]);
     }
 
 
-    public function actu()
+    public function actu():Factory|View|Application
     {
-        return view('frontend.gallery', [
-            'article' => 1
+        return view('frontend.actualites', [
+            'articles' => $this->repository->getAllVerified(),
+            'valves' => $this->valveRepository->getAllVerified(),
+            
         ]);
     }
 

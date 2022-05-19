@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
+
     ACCEUIL
 @endsection
 @section('content')
@@ -12,7 +13,7 @@
   <div class="container">
 
     <ol>
-      <li><a href="index.html">Acceuil</a></li>
+      <li><a href="/">Acceuil</a></li>
       <li>Gallerie</li>
     </ol>
     <h2>Notre Galerie</h2>
@@ -25,10 +26,8 @@
   <div class="container">
 
     <div class="row no-gutters">
-
+      <!-- ======= Blog Section ======= -->
     </div>
-  </div>
-</section><!-- End Pricing Section -->
 
 </main><!-- End #main -->
 

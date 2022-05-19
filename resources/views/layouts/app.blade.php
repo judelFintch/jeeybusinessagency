@@ -68,7 +68,7 @@
           </li>
 
           <li><a href="{{route('front.gallery')}}">Gallerie</a></li>
-          <li><a href="{{route('front.actualite')}}">Actualités</a></li>
+          <li><a href="{{route('front.actualite')}}">Publications</a></li>
           <li><a href="https://web45.lws-hosting.com:2096/">WebMail</a></li>
           <li><a href="{{route('front.contact')}}">Contact</a></li>
         </ul>
