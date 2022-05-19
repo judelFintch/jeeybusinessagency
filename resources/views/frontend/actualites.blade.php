@@ -70,15 +70,13 @@
           </div><!-- End blog entries list -->
 
           <div class="col-lg-4">
-
             <div class="sidebar">
               <h3 class="sidebar-title">Telechargez</h3>
               <div class="sidebar-item categories">
                 <ul>
-                @foreach($valves as $valve)
-                  <li><a href="{{ asset('storage/'.$valve->files) }}">{{ $valve->title ?? "" }} </a></li>
-                @endforeach
-                  
+                  @foreach($valves as $valve)
+                    <li><a href="{{ asset('storage/'.$valve->files) }}">{{ $valve->title ?? "" }} </a></li>
+                  @endforeach
                 </ul>
               </div><!-- End sidebar categories-->
 
