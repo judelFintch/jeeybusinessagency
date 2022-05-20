@@ -15,28 +15,21 @@
       <li>Publications</li>
     </ol>
     <h2>Nos Publications</h2>
-
   </div>
 </section><!-- End Breadcrumbs -->
-
 <!-- ======= Pricing Section ======= -->
 <section id="pricing" class="pricing">
   <div class="container">
-
     <div class="row no-gutters">
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
-
         <div class="row">
-
           <div class="col-lg-8 entries">
           @foreach($articles as $article)
             <article class="entry">
-
               <div class="entry-img">
                 <img src="{{ asset('storage/'.$article->picture) }}" alt="" class="img-fluid">
               </div>
-
               <h2 class="entry-title">
                 <a href="blog-single.html">{{ $article->title }}</a>
               </h2>

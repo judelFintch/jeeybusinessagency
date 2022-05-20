@@ -17,7 +17,7 @@
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Bienvenue sur <span>sur notre site</span></h2>
                 <p class="animate__animated animate__fadeInUp">Une école d'excellence pour l'étude et la formation de votre enfant. La qualité, les meilleurs enseignants, les programmes scolaires conçues sur-mesure, des salles de classes avec de fournitures modernes..</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Lire Plus</a>
+                <a href="{{route('home.about')}}" class="btn-get-started animate__animated animate__fadeInUp">Lire Plus</a>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@
               <div class="carousel-content">
                 <h2 class="animate__animated fanimate__adeInDown">Discipline <span>Prosperite- Travail</span></h2>
                 <p class="animate__animated animate__fadeInUp">Notre devise etant de promoivoir la disciplene, le travail et l'exellence l'ecole se dote d'un espace et des enseignants competant.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Lire plus</a>
+                <a href="{{route('home.about')}}" class="btn-get-started animate__animated animate__fadeInUp">Lire plus</a>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Etudiez  <span>en ligne</span></h2>
                 <p class="animate__animated animate__fadeInUp">Avec notre plate forme d'etude en ligne.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Connectez-vous</a>
               </div>
             </div>
           </div>
@@ -72,21 +72,21 @@
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
               <h3><a href="details_options.html">Maternelle</a></h3>
-              <p>L’enseignement maternel est réglementé dans notre pays, il est doté d’un programme national en cours de validité. La documentation sur la didactique spéciale des activités et les prévisions des matières est disponible</p>
+              <p></p>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
               <h3><a href="">Primaire</a></h3>
-              <p>L’école primaire constitue l’enseignement fondamental dans le cursus scolaire d’un élève. C’est le socle par excellence sur lequel se tissera toute sa formation ultérieure, son instruction à venir et même son éducation pour la vie</p>
+              <p></p>
             </div>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
               <h3><a href="">Secondaire</a></h3>
-              <p>L’école primaire constitue l’enseignement fondamental dans le cursus scolaire d’un élève. C’est le socle par excellence sur lequel se tissera toute sa formation ultérieure, son instruction à venir et même son éducation pour la vie</p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -131,8 +131,8 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="latin_op"><a href="">Latin-philo</a></h4>
-              <p class="option_sec">Formation dans la la section Litteraire a partir de la 3 secondaire</p>
+              <h4 class="latin_op"><a href="">Latin-philo: Litteraire</a></h4>
+              <p class="option_sec"></p>
             </div>
           </div>
 
@@ -140,7 +140,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Coupe  et Couture</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p></p>
               <p> </p>
             </div>
           </div>
@@ -148,8 +148,8 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Electricité</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Technique - Electricité</a></h4>
+              <p></p>
             </div>
           </div>
 
@@ -157,7 +157,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="">Biologie et Chimie</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p></p>
             </div>
           </div>
 
@@ -165,7 +165,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4><a href="">Math et Physique</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <p></p>
             </div>
           </div>
 
@@ -173,7 +173,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a href="">Commerciale de gestion</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <p></p>
             </div>
           </div>
 

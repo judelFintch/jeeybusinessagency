@@ -75,6 +75,7 @@ class HomeFrontendController extends Controller
     {
         return view('frontend.gallery', [
             'articles' => $this->repository->getAllVerified(),
+            'galleries' => $this->galleryRepository->getAllVerified(),
             'valves' => $this->valveRepository->getAllVerified()
         ]);
     }
