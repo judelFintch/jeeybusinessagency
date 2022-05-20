@@ -45,7 +45,7 @@
 
               <div class="entry-content">
                 <p>
-                {{ $article->resume }}
+                {{ $article->content }}
                 </p>
 
               </div>
