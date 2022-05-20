@@ -132,7 +132,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="latin_op"><a href="">Latin-philo: Litteraire</a></h4>
-              <p class="option_sec"></p>
+              <p class="option_sec">
+              Pour ceux qui on de la passion en langue nous offrons des cours et des enseignement utile.
+              </p>
             </div>
           </div>
 
@@ -140,8 +142,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Coupe  et Couture</a></h4>
-              <p></p>
-              <p> </p>
+              <p>Devenez une coutriere ou un coutrier modele de formation. Nous disposons de machines et outils de pointes pour votre formation.</p>
+              
             </div>
           </div>
 
@@ -149,7 +151,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Technique - Electricité</a></h4>
-              <p></p>
+              <p>Les spécialistes en éléctricité sont formés chez nous. Des outils de pointes pour vous permettre de mieux se former sont mis a la disposition.</p>
             </div>
           </div>
 
@@ -157,7 +159,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4><a href="">Biologie et Chimie</a></h4>
-              <p></p>
+              <p>Travers nos enseignements de la biologie et la chimie nous fournisons de cours surmesure</p>
             </div>
           </div>
 
@@ -165,7 +167,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4><a href="">Math et Physique</a></h4>
-              <p></p>
+              <p>Devez mathématicien ou physicien à travers nos enseignements dans le domaine scientifique</p>
             </div>
           </div>
 
@@ -173,7 +175,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4><a href="">Commerciale de gestion</a></h4>
-              <p></p>
+              <p>Pour ceux qui ont choisi le monde des affaires de commerces et economie. Devenez un financier et comptable en suivant notre programme de formation pour la section commerciale et gestion</p>
             </div>
           </div>
 
