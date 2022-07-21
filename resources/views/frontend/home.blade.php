@@ -75,9 +75,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="service.html" class="nav-item nav-link">Our Services</a>
+                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="" class="nav-item nav-link">About Us</a>
+                <a href="" class="nav-item nav-link">Our Services</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu bg-light m-0">
@@ -159,7 +159,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{{asset('assets/img/about.jpg')}}" alt="" style="object-fit: cover;">
                         <div class="position-absolute top-0 start-0 bg-white pe-3 pb-3" style="width: 200px; height: 200px;">
                             <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
                                 <h1 class="text-white">25</h1>
@@ -206,7 +206,7 @@
         <div class="row g-0">
             <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="position-relative">
-                    <img class="img-fluid w-100" src="img/fact-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{asset('assets/img/fact-1.jpg')}}" alt="">
                     <div class="facts-overlay">
                         <h1 class="display-1">01</h1>
                         <h4 class="text-white mb-3">Construction</h4>
