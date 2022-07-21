@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    ACCEUIL
+    Jeey Businness Agency
 @endsection
 
 @section('content')

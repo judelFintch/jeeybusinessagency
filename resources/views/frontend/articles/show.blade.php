@@ -42,7 +42,6 @@
                   <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="{{ route('article.voirplus', $article->key) }}">0</a></li>
                 </ul>
               </div>
-
               <div class="entry-content">
                 <p>
                 {{ $article->content }}
