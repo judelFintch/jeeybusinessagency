@@ -81,14 +81,14 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                        <a href="" class="dropdown-item">Features</a>
+                        <a href="" class="dropdown-item">Appointment</a>
+                        <a href="" class="dropdown-item">Our Team</a>
+                        <a href="" class="dropdown-item">Testimonial</a>
+                        <a href="" class="dropdown-item">404 Page</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a href="" class="nav-item nav-link">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -100,7 +100,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="{{asset('assets/img/carousel-1.jpg')}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
