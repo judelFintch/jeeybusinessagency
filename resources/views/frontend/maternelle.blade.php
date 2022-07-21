@@ -23,7 +23,6 @@
 <!-- ======= Pricing Section ======= -->
 <section id="pricing" class="pricing">
   <div class="container">
-
     <div class="row no-gutters">
 
     </div>
@@ -31,6 +30,4 @@
 </section><!-- End Pricing Section -->
 
 </main><!-- End #main -->
-
-  
 @endsection
