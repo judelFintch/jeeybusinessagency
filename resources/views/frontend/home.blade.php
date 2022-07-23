@@ -41,15 +41,15 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
                     <small class="fa fa-phone-alt me-2"></small>
-                    <small>+012 345 6789</small>
+                    <small>+243 97 054 63 11</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center border-end px-3">
                     <small class="far fa-envelope-open me-2"></small>
-                    <small>info@example.com</small>
+                    <small>info@jeeybusinessagency.com</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center border-end px-3">
                     <small class="far fa-clock me-2"></small>
-                    <small>Mon - Fri : 09 AM - 09 PM</small>
+                    <small>Lun - Sam : 09 AM - 16 PM</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -75,20 +75,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-3 py-lg-0">
-                <a href="/" class="nav-item nav-link active">Home</a>
-                <a href="" class="nav-item nav-link">About Us</a>
-                <a href="" class="nav-item nav-link">Our Services</a>
+                <a href="/" class="nav-item nav-link active">Acceuil</a>
+                <a href="" class="nav-item nav-link">Apropos</a>
+                <a href="" class="nav-item nav-link">Equipes</a>
+                
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nos Services</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="" class="dropdown-item">Features</a>
-                        <a href="" class="dropdown-item">Appointment</a>
-                        <a href="" class="dropdown-item">Our Team</a>
-                        <a href="" class="dropdown-item">Testimonial</a>
-                        <a href="" class="dropdown-item">404 Page</a>
+                        <a href="" class="dropdown-item">Electricité</a>
+                        <a href="" class="dropdown-item">Architecture</a>
+                        <a href="" class="dropdown-item">Immobilier</a>
+                        <a href="" class="dropdown-item">Construction</a>
+                        <a href="" class="dropdown-item">Location</a>
                     </div>
                 </div>
-                <a href="" class="nav-item nav-link">Contact Us</a>
+                <a href="" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -105,14 +106,14 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
-                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Welcome to Jeey Business</h5>
-                                    <h1 class="display-2 text-light mb-3 animated slideInDown">A Construction & Renovation Company</h1>
+                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Bienvenue chez Jeey Business Agency</h5>
+                                    <h1 class="display-2 text-light mb-3 animated slideInDown">A Construction & Immobilier Company</h1>
                                     <ol class="breadcrumb mb-4 pb-2">
-                                        <li class="breadcrumb-item fs-5 text-light">Commercial</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Residential</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Industrial</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Industriale</li>
                                     </ol>
-                                    <a href="" class="btn btn-primary py-3 px-5">More Details</a>
+                                    <a href="" class="btn btn-primary py-3 px-5">Plus</a>
                                 </div>
                             </div>
                         </div>
@@ -124,14 +125,14 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
-                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Welcome to Jeey Business</h5>
-                                    <h1 class="display-2 text-light mb-3 animated slideInDown">Professional Tiling & Painting Services</h1>
+                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Bienvenue chez Jeey Business Agency</h5>
+                                    <h1 class="display-2 text-light mb-3 animated slideInDown">A Construction & Immobilier Company</h1>
                                     <ol class="breadcrumb mb-4 pb-2">
-                                        <li class="breadcrumb-item fs-5 text-light">Commercial</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Residential</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Industrial</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Industriale</li>
                                     </ol>
-                                    <a href="" class="btn btn-primary py-3 px-5">More Details</a>
+                                    <a href="" class="btn btn-primary py-3 px-5">Plus</a>
                                 </div>
                             </div>
                         </div>
@@ -162,9 +163,9 @@
                         <img class="position-absolute w-100 h-100" src="{{asset('assets/img/about.jpg')}}" alt="" style="object-fit: cover;">
                         <div class="position-absolute top-0 start-0 bg-white pe-3 pb-3" style="width: 200px; height: 200px;">
                             <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
-                                <h1 class="text-white">25</h1>
-                                <h2 class="text-white">Years</h2>
-                                <h5 class="text-white mb-0">Experience</h5>
+                                <h1 class="text-white">2</h1>
+                                <h2 class="text-white">Ans</h2>
+                                <h5 class="text-white mb-0">Experiences</h5>
                             </div>
                         </div>
                     </div>
