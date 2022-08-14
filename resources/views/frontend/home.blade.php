@@ -269,10 +269,14 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
-                        <h6 class="text-body text-uppercase mb-2">Why Choose Us!</h6>
-                        <h1 class="display-6 mb-0">Our Specialization And Company Features</h1>
+                        <h6 class="text-body text-uppercase mb-2">POURQUOI NOUS CHOISIR!</h6>
+                        <h1 class="display-6 mb-0">Nos spécialisations et caractéristiques de l'entreprise</h1>
                     </div>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-5">Chez Jeeybusinessagency, on est tous complétement carrés.
+Nous sommes une équipe dynamique et soudée 100% engagée chaque jour pour mener à bien les missions qui nous sont confiées.
+Notre passion commune : réaliser les projets que vous imaginez.
+
+</p>
                     <div class="row gy-5 gx-4">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
