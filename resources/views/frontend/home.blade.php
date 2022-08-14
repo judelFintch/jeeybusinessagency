@@ -219,8 +219,9 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">01</h1>
                         <h4 class="text-white mb-3">Construction</h4>
-                        <p class="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                        <a class="text-white small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
+                        <p class="text-white">En génie civil, en construction bâtiment, gestion de chantier et travaux publics, ferraillage, terrassement, métré et étude de prix, le planning et suivi des travaux chantier.
+</p>
+                       
                     </div>
                 </div>
             </div>
@@ -230,8 +231,8 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">02</h1>
                         <h4 class="text-white mb-3">Immobilier</h4>
-                        <p class="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                        <a class="text-white small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
+                        <p class="text-white">Nous assurons les coseils, la vente et le facilitation dans vos processus  de vos achats ou de locations imobiliers</p>
+                       
                     </div>
                 </div>
             </div>
@@ -241,8 +242,8 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">03</h1>
                         <h4 class="text-white mb-3">Architecture</h4>
-                        <p class="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                        <a class="text-white small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
+                        <p class="text-white">Nos atteliers d'architectures vous proposes toutes les solutions necessaires dans la conceptions des vos plans et autres</p>
+                        
                     </div>
                 </div>
             </div>
@@ -252,8 +253,8 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">04</h1>
                         <h4 class="text-white mb-3">Location</h4>
-                        <p class="text-white">Aliqu diam amet diam et eos erat ipsum lorem stet lorem sit clita duo justo erat amet</p>
-                        <a class="text-white small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
+                        <p class="text-white">Nous assurons un service professionnel et rapide dans vos processus de location de vehicul et mainson quelque soit votre province</p>
+                        
                     </div>
                 </div>
             </div>
