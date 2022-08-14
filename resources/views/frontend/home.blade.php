@@ -281,30 +281,30 @@ Notre passion commune : réaliser les projets que vous imaginez.
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                <h6 class="mb-0">Large number of services provided</h6>
+                                <h6 class="mb-0">Rapidite</h6>
                             </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam</span>
+                            <span></span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                <h6 class="mb-0">25+ years of professional experience</h6>
+                                <h6 class="mb-0">Experience</h6>
                             </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam</span>
+                            <span></span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                <h6 class="mb-0">A large number of grateful customers</h6>
+                                <h6 class="mb-0">Qualite</h6>
                             </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam</span>
+                            <span></span>
                         </div>
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                <h6 class="mb-0">Always reliable and affordable prices</h6>
+                                <h6 class="mb-0">Professionnalisme</h6>
                             </div>
-                            <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam</span>
+                            <span></span>
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@ Notre passion commune : réaliser les projets que vous imaginez.
             <div class="row g-5 align-items-end mb-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4">
-                        <h6 class="text-body text-uppercase mb-2">Our Services</h6>
+                        <h6 class="text-body text-uppercase mb-2">Nod Realisation</h6>
                         <h1 class="display-6 mb-0">Construction And Renovation Solutions</h1>
                     </div>
                 </div>
@@ -341,66 +341,9 @@ Notre passion commune : réaliser les projets que vous imaginez.
                 </div>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Building Construction</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="{{asset('assets/img/service-2.jpg')}}" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Home Maintainance</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="{{asset('assets/img/service-3.jpg')}}" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Renovation and Painting</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="{{asset('assets/img/service-4.jpg')}}" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Wiring and installation</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="{{asset('assets/img/service-5.jpg')}}" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Tiling and Painting</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-light overflow-hidden h-100">
-                        <img class="img-fluid" src="{{asset('assets/img/service-6.jpg')}}" alt="">
-                        <div class="service-text position-relative text-center h-100 p-4">
-                            <h5 class="mb-3">Interior Design</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <a class="small" href="">READ MORE<i class="fa fa-arrow-right ms-3"></i></a>
-                        </div>
-                    </div>
-                </div>
+              
+                
+                
             </div>
         </div>
     </div>
@@ -413,10 +356,10 @@ Notre passion commune : réaliser les projets que vous imaginez.
             <div class="row g-5">
                 <div class="col-lg-5 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
-                        <h6 class="text-white text-uppercase mb-2">Appointment</h6>
-                        <h1 class="display-6 text-white mb-0">A Company Involved In Service And Maintenance</h1>
+                        <h6 class="text-white text-uppercase mb-2"></h6>
+                        <h1 class="display-6 text-white mb-0"></h1>
                     </div>
-                    <p class="text-white mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="text-white mb-0"></p>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <form>
@@ -469,7 +412,7 @@ Notre passion commune : réaliser les projets que vous imaginez.
             <div class="row g-5 align-items-end mb-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4">
-                        <h6 class="text-body text-uppercase mb-2">Our Team</h6>
+                        <h6 class="text-body text-uppercase mb-2">Notre Equipes</h6>
                         <h1 class="display-6 mb-0">Our Expert Worker</h1>
                     </div>
                 </div>
@@ -517,24 +460,24 @@ Notre passion commune : réaliser les projets que vous imaginez.
             <div class="row g-5">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
-                        <h6 class="text-body text-uppercase mb-2">Testimonial</h6>
-                        <h1 class="display-6 mb-0">What Our Happy Clients Say!</h1>
+                        <h6 class="text-body text-uppercase mb-2">Temoignages</h6>
+                        <h1 class="display-6 mb-0">Ce que disent nos clients satisfaits!</h1>
                     </div>
-                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4"></p>
                     <div class="row g-4">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-users fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">123+</h1>
+                                <h1 class="ms-3 mb-0">12+</h1>
                             </div>
-                            <h5 class="mb-0">Happy Clients</h5>
+                            <h5 class="mb-0">Clients heureux</h5>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">123+</h1>
+                                <h1 class="ms-3 mb-0">23+</h1>
                             </div>
-                            <h5 class="mb-0">Projects Done</h5>
+                            <h5 class="mb-0">Projets réalisés</h5>
                         </div>
                     </div>
                 </div>
@@ -542,7 +485,7 @@ Notre passion commune : réaliser les projets que vous imaginez.
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
                             <img class="img-fluid mb-4" src="{{asset('assets/img/testimonial-1.jpg')}}" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
+                            <p class="fs-5">.</p>
                             <div class="bg-primary mb-3" style="width: 60px; height: 5px"></div>
                             <h5>Client Name</h5>
                             <span>Profession</span>
