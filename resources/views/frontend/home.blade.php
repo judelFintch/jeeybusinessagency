@@ -114,7 +114,7 @@
                                     <ol class="breadcrumb mb-4 pb-2">
                                         <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
                                         <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Industriale</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Industrielle</li>
                                     </ol>
                                     <a href="" class="btn btn-primary py-3 px-5">Plus</a>
                                 </div>
@@ -128,12 +128,12 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
-                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Bienvenue chez Jeey Business Agency</h5>
-                                    <h1 class="display-2 text-light mb-3 animated slideInDown">A Construction & Immobilier Company</h1>
+                                    <h5 class="text-light text-uppercase mb-3 animated slideInDown">Service de location</h5>
+                                    <h1 class="display-2 text-light mb-3 animated slideInDown">Transport & Immobilier, Transport</h1>
                                     <ol class="breadcrumb mb-4 pb-2">
-                                        <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Industriale</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Voiture</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Maison</li>
+                                        <li class="breadcrumb-item fs-5 text-light">Chambre</li>
                                     </ol>
                                     <a href="" class="btn btn-primary py-3 px-5">Plus</a>
                                 </div>
@@ -177,23 +177,28 @@
                     <div class="h-100">
                         <div class="border-start border-5 border-primary ps-4 mb-5">
                             <h6 class="text-body text-uppercase mb-2">Apropos</h6>
-                            <h1 class="display-6 mb-0">Unique Solutions For Residentials & Industries!</h1>
+                            <h1 class="display-6 mb-0">Solutions uniques pour les résidences et les industries!</h1>
                         </div>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p>La Société JBA est spécialisée dans la construction de routes, ponts, constructions immobilières, ingénierie municipale, travaux hydrauliques et électriques, structures métalliques et autres infrastructures à grande échelle de construction et d’exploitation minière.
+
+Jeeybusinessagency (JBA en sigle), fondé en 2021 en Republique Democratique Du Congo est présent dans plusieurs Province, tel Kinshasa, Lubumbash et Kolwezi.
+
+</p>
+                        <p class="mb-4">JBA entreprend des projets variés, équipé de machines complètes et d’équipements avancés, grâce à sa forte capacité, sa qualité et son excellente réputation.
+JBA pratique le système de gestion de qualité international ISO 9001, et a obtenu une qualification professionnelle nationale de catégorie A.</p>
                         <div class="border-top mt-4 pt-4">
                             <div class="row g-4">
                                 <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.1s">
                                     <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                    <h6 class="mb-0">Ontime at services</h6>
+                                    <h6 class="mb-0">Ponctualité aux services</h6>
                                 </div>
                                 <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.3s">
                                     <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                    <h6 class="mb-0">24/7 hours services</h6>
+                                    <h6 class="mb-0">Service 24h/24 et 7j/7</h6>
                                 </div>
                                 <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.5s">
                                     <i class="fa fa-check fa-2x text-primary flex-shrink-0 me-3"></i>
-                                    <h6 class="mb-0">Verified professionals</h6>
+                                    <h6 class="mb-0">Rapidite, Qualit et Efficacite</h6>
                                 </div>
                             </div>
                         </div>
