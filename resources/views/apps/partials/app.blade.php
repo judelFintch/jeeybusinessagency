@@ -46,7 +46,7 @@
                     <p>jeeybusinessagency est une S.A.R.L congolaise basée à Lubumbashi (RDC). JBA est représentée par Deux sièges à Kolwezi et Lubumbash</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-primary me-1" href="https://web.facebook.com/tony.ndola9010?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-square btn-outline-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>

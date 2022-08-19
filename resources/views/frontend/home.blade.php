@@ -219,6 +219,30 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     </div>
                 </div>
             </div>
+
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="{{asset('assets/img/fact-4.jpg')}}" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">05</h1>
+                        <h4 class="text-white mb-3">Tourisme</h4>
+                        <p class="text-white">Nous assurons un service de tourisme dans plusieurs villes</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                <div class="position-relative">
+                    <img class="img-fluid w-100" src="{{asset('assets/img/fact-4.jpg')}}" alt="">
+                    <div class="facts-overlay">
+                        <h1 class="display-1">06</h1>
+                        <h4 class="text-white mb-3">Formation chauffeurs</h4>
+                        <p class="text-white">Nous assurons un service de tourisme dans plusieurs villes</p>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Facts End -->
@@ -374,11 +398,11 @@ Notre passion commune : réaliser les projets que vous imaginez.
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4">
                         <h6 class="text-body text-uppercase mb-2">Notre Equipes</h6>
-                        <h1 class="display-6 mb-0">Our Expert Worker</h1>
+                        <h1 class="display-6 mb-0"></h1>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-0"></p>
                 </div>
             </div>
             <div class="row g-4">
