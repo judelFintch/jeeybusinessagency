@@ -293,7 +293,7 @@ Notre passion commune : réaliser les projets que vous imaginez.
             <div class="row g-5 align-items-end mb-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4">
-                        <h6 class="text-body text-uppercase mb-2">Nod Realisation</h6>
+                        <h6 class="text-body text-uppercase mb-2">Nos Realisation</h6>
                         <h1 class="display-6 mb-0">Construction And Renovation Solutions</h1>
                     </div>
                 </div>
@@ -386,29 +386,12 @@ Notre passion commune : réaliser les projets que vous imaginez.
                     <div class="team-item position-relative">
                         <img class="img-fluid" src="{{asset('assets/img/team-1.jpg')}}" alt="">
                         <div class="team-text bg-white p-4">
-                            <h5>Full Name</h5>
-                            <span>Engineer</span>
+                            <h5>Tonny NDOLA</h5>
+                            <span>DG</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid" src="{{asset('assets/img/team-2.jpg')}}" alt="">
-                        <div class="team-text bg-white p-4">
-                            <h5>Full Name</h5>
-                            <span>Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid" src="{{asset('assets/img/team-3.jpg')}}" alt="">
-                        <div class="team-text bg-white p-4">
-                            <h5>Full Name</h5>
-                            <span>Engineer</span>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
