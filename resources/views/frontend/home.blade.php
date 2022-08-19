@@ -75,7 +75,7 @@
                                     <ol class="breadcrumb mb-4 pb-2">
                                         <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
                                         <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Industrielle</li>
+                                        
                                     </ol>
                                     <a href="" class="btn btn-primary py-3 px-5">Plus</a>
                                 </div>
