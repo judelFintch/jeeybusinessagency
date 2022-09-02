@@ -73,11 +73,10 @@
                                     <h5 class="text-light text-uppercase mb-3 animated slideInDown">Bienvenue chez Jeey Business Agency</h5>
                                     <h1 class="display-2 text-light mb-3 animated slideInDown">Une entreprise de construction et d'immobilier</h1>
                                     <ol class="breadcrumb mb-4 pb-2">
-                                        <li class="breadcrumb-item fs-5 text-light">Commerciale</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Residentiele</li>
                                         
+                    
                                     </ol>
-                                    <a href="" class="btn btn-primary py-3 px-5">Plus</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -90,13 +89,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
                                     <h5 class="text-light text-uppercase mb-3 animated slideInDown">Service de location</h5>
-                                    <h1 class="display-2 text-light mb-3 animated slideInDown">Transport & Immobilier, Transport</h1>
-                                    <ol class="breadcrumb mb-4 pb-2">
-                                        <li class="breadcrumb-item fs-5 text-light">Voiture</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Maison</li>
-                                        <li class="breadcrumb-item fs-5 text-light">Chambre</li>
-                                    </ol>
-                                    <a href="" class="btn btn-primary py-3 px-5">Plus</a>
+                                    <h1 class="display-2 text-light mb-3 animated slideInDown">Transport, Electricité,Tourisme...</h1>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -140,13 +134,27 @@
                             <h6 class="text-body text-uppercase mb-2">Apropos</h6>
                             <h1 class="display-6 mb-0">Solutions uniques pour les résidences et les industries!</h1>
                         </div>
-                        <p>La Société JBA est spécialisée dans la construction de routes, ponts, constructions immobilières, ingénierie municipale, travaux hydrauliques et électriques, structures métalliques et autres infrastructures à grande échelle de construction et d’exploitation minière.
+                        <p>La Société JBA est spécialisée dans la  <b>construction, rehabilitation renouvation de tout ouvrage de finie civile, routes, ponts...</b> <br>
+                        <li>Offir la sous traitance aux entreprises.</li>
+                        <li>Installation electrique domestiaque et des batiments.</li>
+                        <li>Exploitation des conssessions minieres et recherche des produits des carrieres.</li>
+                        <li>Peinture carrelages, architectures.</li>
+                        <li>Forrage.</li>
+                        <li>Vente, Achat et location des vehicules et engins lourds.</li>
+                        <li>Formation des chauffeurs et Operateurs.</li>
+                        <li>Service Immobilier(Vente,Achat et locaion: des appartements, maisons, parcelle, locaux...).</li>
+                        <li>Service cleaner.</li>
+                        <li>Services de demenagement .</li>
+                        <li>Service de tourisme et hotelerie.</li>
+                        <li>Service de voyages(facilitation d'obtention de passport, visa...).</li>
 
-Jeeybusinessagency (JBA en sigle), fondé en 2021 en Republique Democratique Du Congo est présent dans plusieurs Province, tel Kinshasa, Lubumbashi, Kolwezi et Goma.
+                        </p>
 
-</p>
-                        <p class="mb-4">JBA entreprend des projets variés, équipé de machines complètes et d’équipements avancés, grâce à sa forte capacité, sa qualité et son excellente réputation.
-JBA pratique le système de gestion de qualité international ISO 9001, et a obtenu une qualification professionnelle nationale de catégorie A.</p>
+                        Jeeybusinessagency (JBA en sigle), fondé en 2019 en Republique Democratique Du Congo est présent dans plusieurs Province, telleque <b>Kinshasa, Lubumbashi, Kolwezi et Goma.</b>
+
+                        </p>
+                        
+
                         <div class="border-top mt-4 pt-4">
                             <div class="row g-4">
                                 <div class="col-sm-4 d-flex wow fadeIn" data-wow-delay="0.1s">
@@ -180,7 +188,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">01</h1>
                         <h4 class="text-white mb-3">Construction</h4>
-                        <p class="text-white">En génie civil, en construction bâtiment, gestion de chantier et travaux publics, ferraillage, terrassement, métré et étude de prix, le planning et suivi des travaux chantier.
+                        <p class="text-white">En génie civil,bâtiment, gestion de chantier et travaux publics.
 </p>
                        
                     </div>
@@ -192,7 +200,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">02</h1>
                         <h4 class="text-white mb-3">Immobilier</h4>
-                        <p class="text-white">Nous assurons les coseils, la vente et le facilitation dans vos processus  de vos achats ou de locations imobiliers</p>
+                        <p class="text-white">Achat, la vente et locations </p>
                        
                     </div>
                 </div>
@@ -203,7 +211,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">03</h1>
                         <h4 class="text-white mb-3">Architecture</h4>
-                        <p class="text-white">Nos atteliers d'architectures vous proposes toutes les solutions necessaires dans la conceptions des vos plans et autres</p>
+                        <p class="text-white"></p>
                         
                     </div>
                 </div>
@@ -214,7 +222,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">04</h1>
                         <h4 class="text-white mb-3">Location</h4>
-                        <p class="text-white">Nous assurons un service professionnel et rapide dans vos processus de location de vehicul et mainson quelque soit votre province</p>
+                        <p class="text-white">Vehicules et engins lourds ...</p>
                         
                     </div>
                 </div>
@@ -226,7 +234,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">05</h1>
                         <h4 class="text-white mb-3">Tourisme</h4>
-                        <p class="text-white">Nous assurons un service de tourisme dans plusieurs villes</p>
+                        <p class="text-white">Kinshasa, Likasi, Lubumbashi, Kolwezi et Goma</p>
                         
                     </div>
                 </div>
@@ -238,7 +246,7 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                     <div class="facts-overlay">
                         <h1 class="display-1">06</h1>
                         <h4 class="text-white mb-3">Formation chauffeurs</h4>
-                        <p class="text-white">Nous assurons un service de tourisme dans plusieurs villes</p>
+                        <p class="text-white"></p>
                         
                     </div>
                 </div>
@@ -255,11 +263,11 @@ JBA pratique le système de gestion de qualité international ISO 9001, et a obt
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="border-start border-5 border-primary ps-4 mb-5">
                         <h6 class="text-body text-uppercase mb-2">POURQUOI NOUS CHOISIR!</h6>
-                        <h1 class="display-6 mb-0">Nos spécialisations et caractéristiques de l'entreprise</h1>
+                       
                     </div>
-                    <p class="mb-5">Chez Jeeybusinessagency, on est tous complétement carrés.
-Nous sommes une équipe dynamique et soudée 100% engagée chaque jour pour mener à bien les missions qui nous sont confiées.
-Notre passion commune : réaliser les projets que vous imaginez.
+                    <p class="mb-5">Chez Jeeybusinessagency, on est tous comptent et proffessionnal dans la realisation des nos projets .
+
+                    Notre passion commune : réaliser les projets que vous imaginez.
 
 </p>
                     <div class="row gy-5 gx-4">
@@ -436,14 +444,14 @@ Notre passion commune : réaliser les projets que vous imaginez.
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-users fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">12+</h1>
+                                <h1 class="ms-3 mb-0">520+</h1>
                             </div>
                             <h5 class="mb-0">Clients heureux</h5>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fa fa-check fa-2x text-primary flex-shrink-0"></i>
-                                <h1 class="ms-3 mb-0">23+</h1>
+                                <h1 class="ms-3 mb-0">170+</h1>
                             </div>
                             <h5 class="mb-0">Projets réalisés</h5>
                         </div>

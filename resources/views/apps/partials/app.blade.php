@@ -43,7 +43,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h1 class="text-white mb-4"><i class="fa fa-building text-primary me-3"></i>JBA</h1>
-                    <p>jeeybusinessagency est une S.A.R.L congolaise basée à Lubumbashi (RDC). JBA est représentée par Deux sièges à Kolwezi et Lubumbash</p>
+                    <p>jeeybusinessagency est une S.A.R.L.U congolaise basée à Lubumbashi (RDC). JBA est représentée par Deux sièges à Kolwezi, Lubumbashi </p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-primary me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-primary me-1" href="https://web.facebook.com/tony.ndola9010?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
@@ -55,6 +55,7 @@
                     <h4 class="text-light mb-4">Addresse</h4>
                     <p><i class="fa fa-map-marker-alt me-3"></i>Haut Katanga, Lubumbashi, Av Rouwe coin Maniema</p>
                     <p><i class="fa fa-phone-alt me-3"></i>+243 97 054 63 11</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+243 089 66 97 315</p>
                     <p><i class="fa fa-envelope me-3"></i>info@jeeybusinessagency.com</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
